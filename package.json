@@ -1,0 +1,38 @@
+{
+  "name": "mapsaic",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dariusk/mapsaic",
+  "author": {
+    "name": "Darius Kazemi",
+    "email": "darius.kazemi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dariusk/mapsaic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dariusk/mapsaic/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dariusk/mapsaic/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "underscore": "~1.5.1",
+    "underscore.deferred": "~0.4.0",
+    "twit": "~1.1.9",
+    "request": "~2.27.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-notify": "~0.2.18"
+  },
+  "keywords": []
+}

@@ -1,0 +1,1643 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.25
+4 verbose read json /home/dariusk/Projects/mapsaic/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/dariusk/Projects/mapsaic',
+6 verbose install   [ 'underscore',
+6 verbose install     'underscore.deferred',
+6 verbose install     'twit',
+6 verbose install     'request',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-notify' ] ]
+7 verbose from cache /home/dariusk/Projects/mapsaic/package.json
+8 info preinstall mapsaic@0.1.0
+9 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-notify/package.json
+10 verbose read json /home/dariusk/Projects/mapsaic/node_modules/underscore.deferred/package.json
+11 verbose read json /home/dariusk/Projects/mapsaic/node_modules/underscore/package.json
+12 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-watch/package.json
+13 verbose read json /home/dariusk/Projects/mapsaic/node_modules/request/package.json
+14 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt/package.json
+15 verbose read json /home/dariusk/Projects/mapsaic/node_modules/twit/package.json
+16 verbose from cache /home/dariusk/Projects/mapsaic/package.json
+17 verbose readDependencies using package.json deps
+18 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-notify/package.json
+19 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/underscore.deferred/package.json
+20 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/underscore/package.json
+21 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-watch/package.json
+22 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/request/package.json
+23 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt/package.json
+24 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/twit/package.json
+25 verbose already installed skipping underscore@~1.5.1 /home/dariusk/Projects/mapsaic
+26 verbose already installed skipping underscore.deferred@~0.4.0 /home/dariusk/Projects/mapsaic
+27 verbose already installed skipping twit@~1.1.9 /home/dariusk/Projects/mapsaic
+28 verbose already installed skipping request@~2.27.0 /home/dariusk/Projects/mapsaic
+29 verbose cache add [ 'grunt-contrib-jshint@~0.6.0', null ]
+30 verbose cache add name=undefined spec="grunt-contrib-jshint@~0.6.0" args=["grunt-contrib-jshint@~0.6.0",null]
+31 verbose parsed url { pathname: 'grunt-contrib-jshint@~0.6.0',
+31 verbose parsed url   path: 'grunt-contrib-jshint@~0.6.0',
+31 verbose parsed url   href: 'grunt-contrib-jshint@~0.6.0' }
+32 verbose cache add name="grunt-contrib-jshint" spec="~0.6.0" args=["grunt-contrib-jshint","~0.6.0"]
+33 verbose parsed url { pathname: '~0.6.0', path: '~0.6.0', href: '~0.6.0' }
+34 verbose addNamed [ 'grunt-contrib-jshint', '~0.6.0' ]
+35 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+36 verbose already installed skipping grunt-contrib-watch@~0.4.0 /home/dariusk/Projects/mapsaic
+37 silly lockFile 86a9e453-grunt-contrib-jshint-0-6-0 grunt-contrib-jshint@~0.6.0
+38 verbose lock grunt-contrib-jshint@~0.6.0 /home/dariusk/.npm/86a9e453-grunt-contrib-jshint-0-6-0.lock
+39 verbose already installed skipping grunt-notify@~0.2.18 /home/dariusk/Projects/mapsaic
+40 silly addNameRange { name: 'grunt-contrib-jshint',
+40 silly addNameRange   range: '>=0.6.0- <0.7.0-',
+40 silly addNameRange   hasData: false }
+41 verbose url raw grunt-contrib-jshint
+42 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+43 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+44 info trying registry request attempt 1 at 08:02:48
+45 verbose etag "CPWGLP92RSUSI3S7ETN9DOQKP"
+46 http GET https://registry.npmjs.org/grunt-contrib-jshint
+47 http 304 https://registry.npmjs.org/grunt-contrib-jshint
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:49 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:49 GMT',
+48 silly registry.get     'cache-control': 'max-age=1',
+48 silly registry.get     etag: '"CPWGLP92RSUSI3S7ETN9DOQKP"',
+48 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '1',
+48 silly registry.get     'x-timer': 'S1402142569.625514,VS0,VE153',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 verbose etag grunt-contrib-jshint from cache
+50 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+50 silly addNameRange   range: '>=0.6.0- <0.7.0-',
+50 silly addNameRange   hasData: true }
+51 silly addNameRange versions [ 'grunt-contrib-jshint',
+51 silly addNameRange   [ '0.1.0',
+51 silly addNameRange     '0.1.1',
+51 silly addNameRange     '0.2.0',
+51 silly addNameRange     '0.3.0',
+51 silly addNameRange     '0.4.0',
+51 silly addNameRange     '0.4.1',
+51 silly addNameRange     '0.4.2',
+51 silly addNameRange     '0.4.3',
+51 silly addNameRange     '0.5.0',
+51 silly addNameRange     '0.5.1',
+51 silly addNameRange     '0.5.2',
+51 silly addNameRange     '0.5.3',
+51 silly addNameRange     '0.5.4',
+51 silly addNameRange     '0.6.0',
+51 silly addNameRange     '0.6.1',
+51 silly addNameRange     '0.6.2',
+51 silly addNameRange     '0.6.3',
+51 silly addNameRange     '0.6.4',
+51 silly addNameRange     '0.6.5',
+51 silly addNameRange     '0.7.0',
+51 silly addNameRange     '0.7.1',
+51 silly addNameRange     '0.7.2',
+51 silly addNameRange     '0.8.0',
+51 silly addNameRange     '0.9.0',
+51 silly addNameRange     '0.9.1',
+51 silly addNameRange     '0.9.2',
+51 silly addNameRange     '0.10.0',
+51 silly addNameRange     '0.1.1-rc5',
+51 silly addNameRange     '0.1.1-rc6' ] ]
+52 verbose addNamed [ 'grunt-contrib-jshint', '0.6.5' ]
+53 verbose addNamed [ '0.6.5', '0.6.5' ]
+54 silly lockFile d0b3f61f-grunt-contrib-jshint-0-6-5 grunt-contrib-jshint@0.6.5
+55 verbose lock grunt-contrib-jshint@0.6.5 /home/dariusk/.npm/d0b3f61f-grunt-contrib-jshint-0-6-5.lock
+56 verbose read json /home/dariusk/.npm/grunt-contrib-jshint/0.6.5/package/package.json
+57 silly lockFile d0b3f61f-grunt-contrib-jshint-0-6-5 grunt-contrib-jshint@0.6.5
+58 silly lockFile d0b3f61f-grunt-contrib-jshint-0-6-5 grunt-contrib-jshint@0.6.5
+59 silly lockFile 86a9e453-grunt-contrib-jshint-0-6-0 grunt-contrib-jshint@~0.6.0
+60 silly lockFile 86a9e453-grunt-contrib-jshint-0-6-0 grunt-contrib-jshint@~0.6.0
+61 silly resolved [ { name: 'grunt-contrib-jshint',
+61 silly resolved     description: 'Validate files with JSHint.',
+61 silly resolved     version: '0.6.5',
+61 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+61 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+61 silly resolved     repository:
+61 silly resolved      { type: 'git',
+61 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+61 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+61 silly resolved     licenses: [ [Object] ],
+61 silly resolved     engines: { node: '>= 0.8.0' },
+61 silly resolved     scripts: { test: 'grunt test' },
+61 silly resolved     dependencies: { jshint: '~2.1.10' },
+61 silly resolved     devDependencies:
+61 silly resolved      { 'grunt-contrib-nodeunit': '~0.1.2',
+61 silly resolved        'grunt-contrib-internal': '~0.4.6',
+61 silly resolved        grunt: '~0.4.0' },
+61 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+61 silly resolved     keywords: [ 'gruntplugin' ],
+61 silly resolved     contributors: [ [Object], [Object] ],
+61 silly resolved     readme: '# grunt-contrib-jshint v0.6.5 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-jshint.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-jshint)\n\n> Validate files with JSHint.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-jshint --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-jshint\');\n```\n\n\n\n\n## Jshint task\n_Run this task with the `grunt jshint` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n\nFor more explanations of the lint errors JSHint will throw at you please visit [jslinterrors.com](http://jslinterrors.com/).\n\n### Options\n\nAny specified option will be passed through directly to [JSHint][], thus you can specify any option that JSHint supports. See the [JSHint documentation][] for a list of supported options.\n\n[JSHint]: http://www.jshint.com/\n[JSHint documentation]: http://www.jshint.com/docs/\n\nA few additional options are supported:\n\n#### globals\nType: `Object`\nDefault value: `null`\n\nA map of global variables, with keys as names and a boolean value to determine if they are assignable. This is not a standard JSHint option, but is passed into the `JSHINT` function as its third argument. See the [JSHint documentation][] for more information.\n\n#### jshintrc\nType: `String`\nDefault value: `null`\n\nIf this filename is specified, options and globals defined therein will be used. The `jshintrc` file must be valid JSON and looks something like this:\n\n```json\n{\n  "curly": true,\n  "eqnull": true,\n  "eqeqeq": true,\n  "undef": true,\n  "globals": {\n    "jQuery": true\n  }\n}\n```\n\n*Be aware that `jshintrc` settings are not merged with your Grunt options.*\n\n#### extensions\nType: `String`\nDefault value: `\'\'`\n\nA list of non-dot-js extensions to check.\n\n#### ignores\nType: `Array`\nDefault value: `null`\n\nA list of files and dirs to ignore. This will override your `.jshintignore` file if set and does not merge.\n\n#### force\nType: `Boolean`\nDefault value: `false`\n\nSet `force` to `true` to report JSHint errors but not fail the task.\n\n#### reporter\nType: `String`\nDefault value: `null`\n\nAllows you to modify this plugins output. By default it will use a built-in Grunt reporter. Set the path to your own custom reporter or to one of the built-in JSHint reporters: `jslint` or `checkstyle`.\n\nSee also: [Writing your own JSHint reporter.](http://jshint.com/docs/reporters/)\n\n#### reporterOutput\nType: `String`\nDefault value: `null`\n\nSpecify a filepath to output the results of a reporter. If `reporterOutput` is specified then all output will be written to the given filepath instead of printed to stdout.\n\n### Usage examples\n\n#### Wildcards\nIn this example, running `grunt jshint:all` (or `grunt jshint` because `jshint` is a [multi task](http://gruntjs.com/configuring-tasks#task-configuration-and-targets)) will lint the project\'s Gruntfile as well as all JavaScript files in the `lib` and `test` directories and their subdirectores, using the default JSHint options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  jshint: {\n    all: [\'Gruntfile.js\', \'lib/**/*.js\', \'test/**/*.js\']\n  }\n});\n```\n\n#### Linting before and after concatenating\nIn this example, running `grunt jshint` will lint both the "beforeconcat" set and "afterconcat" sets of files. This is not ideal, because `dist/output.js` may get linted before it gets created via the [grunt-contrib-concat plugin](https://github.com/gruntjs/grunt-contrib-concat) `concat` task.\n\nIn this case, you should lint the "beforeconcat" files first, then concat, then lint the "afterconcat" files, by running `grunt jshint:beforeconcat concat jshint:afterconcat`.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  concat: {\n    dist: {\n      src: [\'src/foo.js\', \'src/bar.js\'],\n      dest: \'dist/output.js\'\n    }\n  },\n  jshint: {\n    beforeconcat: [\'src/foo.js\', \'src/bar.js\'],\n    afterconcat: [\'dist/output.js\']\n  }\n});\n```\n\n#### Specifying JSHint options and globals\n\nIn this example, custom JSHint options are specified. Note that when `grunt jshint:uses_defaults` is run, those files are linted using the default options, but when `grunt jshint:with_overrides` is run, those files are linted using _merged_ task/target options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  jshint: {\n    options: {\n      curly: true,\n      eqeqeq: true,\n      eqnull: true,\n      browser: true,\n      globals: {\n        jQuery: true\n      },\n    },\n    uses_defaults: [\'dir1/**/*.js\', \'dir2/**/*.js\'],\n    with_overrides: {\n      options: {\n        curly: false,\n        undef: true,\n      },\n      files: {\n        src: [\'dir3/**/*.js\', \'dir4/**/*.js\']\n      },\n    }\n  },\n});\n```\n\n#### Ignoring specific warnings\n\nIf you would like to ignore a specific warning:\n\n```shell\n[L24:C9] W015: Expected \'}\' to have an indentation at 11 instead at 9.\n```\n\nYou can toggle it by prepending `-` to the warning id as an option:\n\n```js\ngrunt.initConfig({\n  jshint: {\n    ignore_warning: {\n      options: {\n        \'-W015\': true,\n      },\n      src: [\'**/*.js\'],\n    },\n  },\n});\n```\n\n#### Ignoring specific files\n\nOccasionally application files and third party libraries share the same directory.  To exclude third party code, but include all current and future application files, use a glob for `files` and specifically exclude libraries using `ignores`.  In this example, the jQuery file is matched by the glob but subsequently ignored when JSHint does its analysis.\n\n```js\ngrunt.initConfig({\n    jshint: {\n        files: [\'js/*.js\'],\n        options: {\n            ignores: [\'js/jquery.js\']\n        }\n    }\n});\n```\n\n\n## Release History\n\n * 2013-10-23   v0.6.5   Fix output when maxerr is low.\n * 2013-08-29   v0.6.4   jshintrc now loaded by jshint allowing comments.\n * 2013-08-15   v0.6.3   Fix module location for jshint 2.1.10.\n * 2013-07-29   v0.6.2   Update to jshint 2.1.7.\n * 2013-07-27   v0.6.1   Peg jshint to 2.1.4 until breaking changes in 2.1.5 are fixed.\n * 2013-06-02   v0.6.0   Dont always succeed the task when using a custom reporter. Bump jshint to 2.1.3.\n * 2013-05-22   v0.5.4   Fix default reporter to show offending file.\n * 2013-05-19   v0.5.3   Performance: Execute the reporter once rather than per file.\n * 2013-05-18   v0.5.2   Fix printing too many erroneous ignored file errors.\n * 2013-05-17   v0.5.1   Fix for when only 1 file is lint free.\n * 2013-05-17   v0.5.0   Bump to jshint 2.0. Add support for .jshintignore files and ignores option Add support for extensions option. Add support for custom reporters and output report to a file.\n * 2013-04-08   v0.4.3   Fix evaluation of predef option when it\'s an object.\n * 2013-04-08   v0.4.2   Avoid wiping force option when jshintrc is used.\n * 2013-04-06   v0.4.1   Fix to allow object type for deprecated predef.\n * 2013-04-04   v0.4.0   Revert task level options to override jshintrc files.\n * 2013-03-13   v0.3.0   Bump to JSHint 1.1.0. Add force option to report JSHint errors but not fail the task. Add error/warning code to message. Allow task level options to override jshintrc file.\n * 2013-02-26   v0.2.0   Bump to JSHint 1.0\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.1rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.1rc5   Updating to work with grunt v0.4.0rc5. Switching to this.filesSrc api.\n * 2012-10-18   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com/)\n\n*This file was generated on Wed Oct 23 2013 20:33:11.*\n',
+61 silly resolved     readmeFilename: 'README.md',
+61 silly resolved     _id: 'grunt-contrib-jshint@0.6.5',
+61 silly resolved     _from: 'grunt-contrib-jshint@~0.6.0' } ]
+62 info install grunt-contrib-jshint@0.6.5 into /home/dariusk/Projects/mapsaic
+63 info installOne grunt-contrib-jshint@0.6.5
+64 verbose from cache /home/dariusk/.npm/grunt-contrib-jshint/0.6.5/package/package.json
+65 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint unbuild
+66 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/package.json
+67 verbose tar unpack /home/dariusk/.npm/grunt-contrib-jshint/0.6.5/package.tgz
+68 silly lockFile b1fea83b-ode-modules-grunt-contrib-jshint tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint
+69 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint /home/dariusk/.npm/b1fea83b-ode-modules-grunt-contrib-jshint.lock
+70 silly lockFile d4d7c07e-contrib-jshint-0-6-5-package-tgz tar:///home/dariusk/.npm/grunt-contrib-jshint/0.6.5/package.tgz
+71 verbose lock tar:///home/dariusk/.npm/grunt-contrib-jshint/0.6.5/package.tgz /home/dariusk/.npm/d4d7c07e-contrib-jshint-0-6-5-package-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm extractEntry README.md
+76 silly gunzTarPerm extractEntry Gruntfile.js
+77 silly gunzTarPerm extractEntry AUTHORS
+78 silly gunzTarPerm extractEntry docs/jshint-options.md
+79 silly gunzTarPerm extractEntry docs/jshint-examples.md
+80 silly gunzTarPerm extractEntry docs/jshint-overview.md
+81 silly gunzTarPerm extractEntry CONTRIBUTING.md
+82 silly gunzTarPerm extractEntry .jshintignore
+83 silly gunzTarPerm extractEntry .jshintrc
+84 silly gunzTarPerm extractEntry CHANGELOG
+85 silly gunzTarPerm extractEntry tasks/jshint.js
+86 silly gunzTarPerm extractEntry tasks/lib/jshint.js
+87 silly gunzTarPerm extractEntry test/jshint_test.js
+88 silly gunzTarPerm extractEntry test/fixtures/missingsemicolon.js
+89 silly gunzTarPerm extractEntry test/fixtures/nodemodule.js
+90 silly gunzTarPerm extractEntry test/fixtures/dontlint.txt
+91 silly gunzTarPerm extractEntry test/fixtures/lint.txt
+92 silly gunzTarPerm extractEntry LICENSE-MIT
+93 silly gunzTarPerm extractEntry .travis.yml
+94 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/package.json
+95 silly lockFile b1fea83b-ode-modules-grunt-contrib-jshint tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint
+96 silly lockFile b1fea83b-ode-modules-grunt-contrib-jshint tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint
+97 silly lockFile d4d7c07e-contrib-jshint-0-6-5-package-tgz tar:///home/dariusk/.npm/grunt-contrib-jshint/0.6.5/package.tgz
+98 silly lockFile d4d7c07e-contrib-jshint-0-6-5-package-tgz tar:///home/dariusk/.npm/grunt-contrib-jshint/0.6.5/package.tgz
+99 info preinstall grunt-contrib-jshint@0.6.5
+100 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/package.json
+101 verbose readDependencies using package.json deps
+102 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/package.json
+103 verbose readDependencies using package.json deps
+104 verbose cache add [ 'jshint@~2.1.10', null ]
+105 verbose cache add name=undefined spec="jshint@~2.1.10" args=["jshint@~2.1.10",null]
+106 verbose parsed url { pathname: 'jshint@~2.1.10',
+106 verbose parsed url   path: 'jshint@~2.1.10',
+106 verbose parsed url   href: 'jshint@~2.1.10' }
+107 verbose cache add name="jshint" spec="~2.1.10" args=["jshint","~2.1.10"]
+108 verbose parsed url { pathname: '~2.1.10', path: '~2.1.10', href: '~2.1.10' }
+109 verbose addNamed [ 'jshint', '~2.1.10' ]
+110 verbose addNamed [ null, '>=2.1.10- <2.2.0-' ]
+111 silly lockFile 7516fea4-jshint-2-1-10 jshint@~2.1.10
+112 verbose lock jshint@~2.1.10 /home/dariusk/.npm/7516fea4-jshint-2-1-10.lock
+113 silly addNameRange { name: 'jshint', range: '>=2.1.10- <2.2.0-', hasData: false }
+114 verbose url raw jshint
+115 verbose url resolving [ 'https://registry.npmjs.org/', './jshint' ]
+116 verbose url resolved https://registry.npmjs.org/jshint
+117 info trying registry request attempt 1 at 08:02:49
+118 verbose etag "78NNWJO9VJQHXUSML5XJ6ZS1H"
+119 http GET https://registry.npmjs.org/jshint
+120 http 304 https://registry.npmjs.org/jshint
+121 silly registry.get cb [ 304,
+121 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+121 silly registry.get     server: 'Apache',
+121 silly registry.get     via: '1.1 varnish',
+121 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:50 GMT',
+121 silly registry.get     'cache-control': 'max-age=1',
+121 silly registry.get     etag: '"78NNWJO9VJQHXUSML5XJ6ZS1H"',
+121 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+121 silly registry.get     'x-cache': 'HIT',
+121 silly registry.get     'x-cache-hits': '1',
+121 silly registry.get     'x-timer': 'S1402142570.099533,VS0,VE173',
+121 silly registry.get     vary: 'Accept',
+121 silly registry.get     'content-length': '0',
+121 silly registry.get     'keep-alive': 'timeout=10, max=50',
+121 silly registry.get     connection: 'Keep-Alive' } ]
+122 verbose etag jshint from cache
+123 silly addNameRange number 2 { name: 'jshint', range: '>=2.1.10- <2.2.0-', hasData: true }
+124 silly addNameRange versions [ 'jshint',
+124 silly addNameRange   [ '0.1.8',
+124 silly addNameRange     '0.1.9',
+124 silly addNameRange     '0.2.0',
+124 silly addNameRange     '0.2.1',
+124 silly addNameRange     '0.2.2',
+124 silly addNameRange     '0.2.3',
+124 silly addNameRange     '0.3.0',
+124 silly addNameRange     '0.3.1',
+124 silly addNameRange     '0.4.0',
+124 silly addNameRange     '0.5.0',
+124 silly addNameRange     '0.5.1',
+124 silly addNameRange     '0.5.2',
+124 silly addNameRange     '0.5.3',
+124 silly addNameRange     '0.5.4',
+124 silly addNameRange     '0.5.5',
+124 silly addNameRange     '0.5.6',
+124 silly addNameRange     '0.5.7',
+124 silly addNameRange     '0.5.8',
+124 silly addNameRange     '0.5.9',
+124 silly addNameRange     '0.6.0',
+124 silly addNameRange     '0.6.1',
+124 silly addNameRange     '0.6.2',
+124 silly addNameRange     '0.6.3',
+124 silly addNameRange     '0.7.0',
+124 silly addNameRange     '0.7.1',
+124 silly addNameRange     '0.7.2',
+124 silly addNameRange     '0.7.3',
+124 silly addNameRange     '0.8.0',
+124 silly addNameRange     '0.8.1',
+124 silly addNameRange     '0.8.2',
+124 silly addNameRange     '0.9.0',
+124 silly addNameRange     '0.9.1',
+124 silly addNameRange     '1.0.0',
+124 silly addNameRange     '1.1.0',
+124 silly addNameRange     '2.0.0',
+124 silly addNameRange     '2.0.1',
+124 silly addNameRange     '2.1.0',
+124 silly addNameRange     '2.1.1',
+124 silly addNameRange     '2.1.2',
+124 silly addNameRange     '2.1.3',
+124 silly addNameRange     '2.1.4',
+124 silly addNameRange     '2.1.5',
+124 silly addNameRange     '2.1.6',
+124 silly addNameRange     '2.1.7',
+124 silly addNameRange     '2.1.8',
+124 silly addNameRange     '2.1.9',
+124 silly addNameRange     '2.1.10',
+124 silly addNameRange     '2.1.11',
+124 silly addNameRange     '2.2.0',
+124 silly addNameRange     '2.3.0',
+124 silly addNameRange     '2.4.0',
+124 silly addNameRange     '2.4.1',
+124 silly addNameRange     '2.4.2',
+124 silly addNameRange     '2.4.3',
+124 silly addNameRange     '2.4.4',
+124 silly addNameRange     '2.5.0',
+124 silly addNameRange     '2.5.1' ] ]
+125 verbose addNamed [ 'jshint', '2.1.11' ]
+126 verbose addNamed [ '2.1.11', '2.1.11' ]
+127 silly lockFile a928d2e0-jshint-2-1-11 jshint@2.1.11
+128 verbose lock jshint@2.1.11 /home/dariusk/.npm/a928d2e0-jshint-2-1-11.lock
+129 verbose read json /home/dariusk/.npm/jshint/2.1.11/package/package.json
+130 silly lockFile a928d2e0-jshint-2-1-11 jshint@2.1.11
+131 silly lockFile a928d2e0-jshint-2-1-11 jshint@2.1.11
+132 silly lockFile 7516fea4-jshint-2-1-10 jshint@~2.1.10
+133 silly lockFile 7516fea4-jshint-2-1-10 jshint@~2.1.10
+134 silly resolved [ { name: 'jshint',
+134 silly resolved     version: '2.1.11',
+134 silly resolved     homepage: 'http://jshint.com/',
+134 silly resolved     description: 'Static analysis tool for JavaScript',
+134 silly resolved     author:
+134 silly resolved      { name: 'Anton Kovalyov',
+134 silly resolved        email: 'anton@kovalyov.net',
+134 silly resolved        url: 'http://anton.kovalyov.net/' },
+134 silly resolved     repository: { type: 'git', url: 'https://github.com/jshint/jshint.git' },
+134 silly resolved     bugs: { url: 'https://github.com/jshint/jshint/issues' },
+134 silly resolved     bin: { jshint: './bin/jshint' },
+134 silly resolved     scripts:
+134 silly resolved      { build: 'node bin/build',
+134 silly resolved        test: 'nodeunit tests tests/regression tests/unit',
+134 silly resolved        pretest: 'jshint src' },
+134 silly resolved     main: './src/jshint.js',
+134 silly resolved     dependencies:
+134 silly resolved      { shelljs: '0.1.x',
+134 silly resolved        underscore: '1.4.x',
+134 silly resolved        cli: '0.4.x',
+134 silly resolved        minimatch: '0.x.x',
+134 silly resolved        'console-browserify': '0.1.x' },
+134 silly resolved     devDependencies:
+134 silly resolved      { jshint: '2.1.x',
+134 silly resolved        shelljs: '0.1.x',
+134 silly resolved        browserify: '2.12.x',
+134 silly resolved        coveraje: '0.2.x',
+134 silly resolved        nodeunit: '0.8.x',
+134 silly resolved        sinon: '1.7.x' },
+134 silly resolved     jshintConfig:
+134 silly resolved      { boss: true,
+134 silly resolved        node: true,
+134 silly resolved        strict: true,
+134 silly resolved        white: true,
+134 silly resolved        smarttabs: true,
+134 silly resolved        maxlen: 100,
+134 silly resolved        newcap: false,
+134 silly resolved        undef: true,
+134 silly resolved        unused: true,
+134 silly resolved        onecase: true,
+134 silly resolved        indent: 2 },
+134 silly resolved     licenses: [ [Object] ],
+134 silly resolved     preferGlobal: true,
+134 silly resolved     files: [ 'bin', 'src' ],
+134 silly resolved     readme: 'JSHint, A Static Code Analysis Tool for JavaScript\n--------------------------------------------------\n\n\\[ [Use it online](http://jshint.com/) •  [About](http://jshint.com/about/) • \n[Docs](http://jshint.com/docs/) • [FAQ](http://jshint.com/docs/faq) • \n[Install](http://jshint.com/install/) • [Hack](http://jshint.com/hack/) • \n[Blog](http://jshint.com/blog/) • [Twitter](https://twitter.com/jshint/) \\]\n\n[![Build Status](https://travis-ci.org/jshint/jshint.png?branch=master)](https://travis-ci.org/jshint/jshint)\n[![NPM version](https://badge.fury.io/js/jshint.png)](http://badge.fury.io/js/jshint)\n\nJSHint is a community-driven tool to detect errors and potential problems\nin JavaScript code and to enforce your team’s coding conventions. It is\nvery flexible so you can easily adjust it to your particular coding guidelines\nand the environment you expect your code to execute in.\n\n#### Reporting a bug\n\nTo report a bug simply create a\n[new GitHub Issue](https://github.com/jshint/jshint/issues/new) and describe\nyour problem or suggestion. We welcome all kind of feedback regarding\nJSHint including but not limited to:\n\n * When JSHint doesn\'t work as expected\n * When JSHint complains about valid JavaScript code that works in all browsers\n * When you simply want a new option or feature\n\nBefore reporting a bug look around to see if there are any open or closed tickets\nthat cover your issue. And remember the wisdom: pull request > bug report > tweet.\n\n\n#### License\n\nJSHint is distributed under the MIT License. One file and one file only\n(src/stable/jshint.js) is distributed under the slightly modified MIT License.\n\n\n#### Thank you!\n\nWe really appreciate all kind of feedback and contributions. Thanks for using and supporting JSHint!\n',
+134 silly resolved     readmeFilename: 'README.md',
+134 silly resolved     _id: 'jshint@2.1.11',
+134 silly resolved     _from: 'jshint@~2.1.10' } ]
+135 info install jshint@2.1.11 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint
+136 info installOne jshint@2.1.11
+137 verbose from cache /home/dariusk/.npm/jshint/2.1.11/package/package.json
+138 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint unbuild
+139 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+140 verbose tar unpack /home/dariusk/.npm/jshint/2.1.11/package.tgz
+141 silly lockFile 7c14b7bb-ntrib-jshint-node-modules-jshint tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+142 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint /home/dariusk/.npm/7c14b7bb-ntrib-jshint-node-modules-jshint.lock
+143 silly lockFile 0d6863ab-sk-npm-jshint-2-1-11-package-tgz tar:///home/dariusk/.npm/jshint/2.1.11/package.tgz
+144 verbose lock tar:///home/dariusk/.npm/jshint/2.1.11/package.tgz /home/dariusk/.npm/0d6863ab-sk-npm-jshint-2-1-11-package-tgz.lock
+145 silly gunzTarPerm modes [ '755', '644' ]
+146 silly gunzTarPerm extractEntry package.json
+147 silly gunzTarPerm extractEntry README.md
+148 silly gunzTarPerm extractEntry src/jshint.js
+149 silly gunzTarPerm extractEntry src/cli.js
+150 silly gunzTarPerm extractEntry src/vars.js
+151 silly gunzTarPerm extractEntry src/state.js
+152 silly gunzTarPerm extractEntry src/reg.js
+153 silly gunzTarPerm extractEntry src/style.js
+154 silly gunzTarPerm extractEntry src/lex.js
+155 silly gunzTarPerm extractEntry src/messages.js
+156 silly gunzTarPerm extractEntry src/platforms/rhino.js
+157 silly gunzTarPerm extractEntry src/reporters/default.js
+158 silly gunzTarPerm extractEntry src/reporters/non_error.js
+159 silly gunzTarPerm extractEntry src/reporters/checkstyle.js
+160 silly gunzTarPerm extractEntry src/reporters/jslint_xml.js
+161 silly gunzTarPerm extractEntry bin/jshint
+162 silly gunzTarPerm extractEntry bin/land
+163 silly gunzTarPerm extractEntry bin/build
+164 silly gunzTarPerm extractEntry bin/apply
+165 silly gunzTarPerm extractEntry bin/changelog
+166 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+167 silly lockFile 7c14b7bb-ntrib-jshint-node-modules-jshint tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+168 silly lockFile 7c14b7bb-ntrib-jshint-node-modules-jshint tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+169 silly lockFile 0d6863ab-sk-npm-jshint-2-1-11-package-tgz tar:///home/dariusk/.npm/jshint/2.1.11/package.tgz
+170 silly lockFile 0d6863ab-sk-npm-jshint-2-1-11-package-tgz tar:///home/dariusk/.npm/jshint/2.1.11/package.tgz
+171 info preinstall jshint@2.1.11
+172 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+173 verbose readDependencies using package.json deps
+174 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+175 verbose readDependencies using package.json deps
+176 verbose cache add [ 'shelljs@0.1.x', null ]
+177 verbose cache add name=undefined spec="shelljs@0.1.x" args=["shelljs@0.1.x",null]
+178 verbose parsed url { pathname: 'shelljs@0.1.x',
+178 verbose parsed url   path: 'shelljs@0.1.x',
+178 verbose parsed url   href: 'shelljs@0.1.x' }
+179 verbose cache add name="shelljs" spec="0.1.x" args=["shelljs","0.1.x"]
+180 verbose parsed url { pathname: '0.1.x', path: '0.1.x', href: '0.1.x' }
+181 verbose addNamed [ 'shelljs', '0.1.x' ]
+182 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+183 silly lockFile cc65d7ed-shelljs-0-1-x shelljs@0.1.x
+184 verbose lock shelljs@0.1.x /home/dariusk/.npm/cc65d7ed-shelljs-0-1-x.lock
+185 verbose cache add [ 'underscore@1.4.x', null ]
+186 verbose cache add name=undefined spec="underscore@1.4.x" args=["underscore@1.4.x",null]
+187 verbose parsed url { pathname: 'underscore@1.4.x',
+187 verbose parsed url   path: 'underscore@1.4.x',
+187 verbose parsed url   href: 'underscore@1.4.x' }
+188 verbose cache add name="underscore" spec="1.4.x" args=["underscore","1.4.x"]
+189 verbose parsed url { pathname: '1.4.x', path: '1.4.x', href: '1.4.x' }
+190 verbose addNamed [ 'underscore', '1.4.x' ]
+191 verbose addNamed [ null, '>=1.4.0- <1.5.0-' ]
+192 silly lockFile 53dcd9dd-underscore-1-4-x underscore@1.4.x
+193 verbose lock underscore@1.4.x /home/dariusk/.npm/53dcd9dd-underscore-1-4-x.lock
+194 verbose cache add [ 'cli@0.4.x', null ]
+195 verbose cache add name=undefined spec="cli@0.4.x" args=["cli@0.4.x",null]
+196 verbose parsed url { pathname: 'cli@0.4.x', path: 'cli@0.4.x', href: 'cli@0.4.x' }
+197 verbose cache add name="cli" spec="0.4.x" args=["cli","0.4.x"]
+198 verbose parsed url { pathname: '0.4.x', path: '0.4.x', href: '0.4.x' }
+199 verbose addNamed [ 'cli', '0.4.x' ]
+200 verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+201 silly lockFile c9212ae8-cli-0-4-x cli@0.4.x
+202 verbose lock cli@0.4.x /home/dariusk/.npm/c9212ae8-cli-0-4-x.lock
+203 silly addNameRange { name: 'shelljs', range: '>=0.1.0- <0.2.0-', hasData: false }
+204 silly addNameRange { name: 'underscore', range: '>=1.4.0- <1.5.0-', hasData: false }
+205 silly addNameRange { name: 'cli', range: '>=0.4.0- <0.5.0-', hasData: false }
+206 verbose url raw shelljs
+207 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs' ]
+208 verbose url resolved https://registry.npmjs.org/shelljs
+209 info trying registry request attempt 1 at 08:02:49
+210 verbose etag "35SYE8UT7G2TRJVSUGC7DVGEH"
+211 http GET https://registry.npmjs.org/shelljs
+212 verbose url raw underscore
+213 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+214 verbose url resolved https://registry.npmjs.org/underscore
+215 info trying registry request attempt 1 at 08:02:49
+216 verbose etag "9HKWIKMYJIHROWRAYWSRE4KR0"
+217 http GET https://registry.npmjs.org/underscore
+218 verbose cache add [ 'minimatch@0.x.x', null ]
+219 verbose cache add name=undefined spec="minimatch@0.x.x" args=["minimatch@0.x.x",null]
+220 verbose parsed url { pathname: 'minimatch@0.x.x',
+220 verbose parsed url   path: 'minimatch@0.x.x',
+220 verbose parsed url   href: 'minimatch@0.x.x' }
+221 verbose cache add name="minimatch" spec="0.x.x" args=["minimatch","0.x.x"]
+222 verbose parsed url { pathname: '0.x.x', path: '0.x.x', href: '0.x.x' }
+223 verbose addNamed [ 'minimatch', '0.x.x' ]
+224 verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+225 silly lockFile 38c78372-minimatch-0-x-x minimatch@0.x.x
+226 verbose lock minimatch@0.x.x /home/dariusk/.npm/38c78372-minimatch-0-x-x.lock
+227 verbose cache add [ 'console-browserify@0.1.x', null ]
+228 verbose cache add name=undefined spec="console-browserify@0.1.x" args=["console-browserify@0.1.x",null]
+229 verbose parsed url { pathname: 'console-browserify@0.1.x',
+229 verbose parsed url   path: 'console-browserify@0.1.x',
+229 verbose parsed url   href: 'console-browserify@0.1.x' }
+230 verbose cache add name="console-browserify" spec="0.1.x" args=["console-browserify","0.1.x"]
+231 verbose parsed url { pathname: '0.1.x', path: '0.1.x', href: '0.1.x' }
+232 verbose addNamed [ 'console-browserify', '0.1.x' ]
+233 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+234 silly lockFile e69eec4c-console-browserify-0-1-x console-browserify@0.1.x
+235 verbose lock console-browserify@0.1.x /home/dariusk/.npm/e69eec4c-console-browserify-0-1-x.lock
+236 verbose url raw cli
+237 verbose url resolving [ 'https://registry.npmjs.org/', './cli' ]
+238 verbose url resolved https://registry.npmjs.org/cli
+239 info trying registry request attempt 1 at 08:02:49
+240 verbose etag "7FTN4LFPFWRD3WS9MFX6VYPKN"
+241 http GET https://registry.npmjs.org/cli
+242 silly addNameRange { name: 'minimatch', range: '>=0.0.0- <1.0.0-', hasData: false }
+243 silly addNameRange { name: 'console-browserify',
+243 silly addNameRange   range: '>=0.1.0- <0.2.0-',
+243 silly addNameRange   hasData: false }
+244 verbose url raw minimatch
+245 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+246 verbose url resolved https://registry.npmjs.org/minimatch
+247 info trying registry request attempt 1 at 08:02:49
+248 verbose etag "64HZ0LR2MPZLWRRTTBF60QUIU"
+249 http GET https://registry.npmjs.org/minimatch
+250 verbose url raw console-browserify
+251 verbose url resolving [ 'https://registry.npmjs.org/', './console-browserify' ]
+252 verbose url resolved https://registry.npmjs.org/console-browserify
+253 info trying registry request attempt 1 at 08:02:49
+254 verbose etag "1Q8V5LMWXPIS81SBEJTWCW77R"
+255 http GET https://registry.npmjs.org/console-browserify
+256 http 304 https://registry.npmjs.org/shelljs
+257 silly registry.get cb [ 304,
+257 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+257 silly registry.get     server: 'Apache',
+257 silly registry.get     via: '1.1 varnish',
+257 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:50 GMT',
+257 silly registry.get     'cache-control': 'max-age=1',
+257 silly registry.get     etag: '"35SYE8UT7G2TRJVSUGC7DVGEH"',
+257 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+257 silly registry.get     'x-cache': 'HIT',
+257 silly registry.get     'x-cache-hits': '1',
+257 silly registry.get     'x-timer': 'S1402142570.521850,VS0,VE71',
+257 silly registry.get     vary: 'Accept',
+257 silly registry.get     'content-length': '0',
+257 silly registry.get     'keep-alive': 'timeout=10, max=50',
+257 silly registry.get     connection: 'Keep-Alive' } ]
+258 verbose etag shelljs from cache
+259 http 304 https://registry.npmjs.org/underscore
+260 silly registry.get cb [ 304,
+260 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+260 silly registry.get     server: 'Apache',
+260 silly registry.get     via: '1.1 varnish',
+260 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:50 GMT',
+260 silly registry.get     'cache-control': 'max-age=1',
+260 silly registry.get     etag: '"9HKWIKMYJIHROWRAYWSRE4KR0"',
+260 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+260 silly registry.get     'x-cache': 'HIT',
+260 silly registry.get     'x-cache-hits': '1',
+260 silly registry.get     'x-timer': 'S1402142570.521793,VS0,VE70',
+260 silly registry.get     vary: 'Accept',
+260 silly registry.get     'content-length': '0',
+260 silly registry.get     'keep-alive': 'timeout=10, max=50',
+260 silly registry.get     connection: 'Keep-Alive' } ]
+261 verbose etag underscore from cache
+262 silly addNameRange number 2 { name: 'shelljs', range: '>=0.1.0- <0.2.0-', hasData: true }
+263 silly addNameRange versions [ 'shelljs',
+263 silly addNameRange   [ '0.0.1',
+263 silly addNameRange     '0.0.2',
+263 silly addNameRange     '0.0.3',
+263 silly addNameRange     '0.0.4',
+263 silly addNameRange     '0.0.5',
+263 silly addNameRange     '0.0.6',
+263 silly addNameRange     '0.0.7',
+263 silly addNameRange     '0.0.8',
+263 silly addNameRange     '0.0.9',
+263 silly addNameRange     '0.1.0',
+263 silly addNameRange     '0.1.1',
+263 silly addNameRange     '0.1.2',
+263 silly addNameRange     '0.1.3',
+263 silly addNameRange     '0.1.4',
+263 silly addNameRange     '0.2.0',
+263 silly addNameRange     '0.2.1',
+263 silly addNameRange     '0.2.2',
+263 silly addNameRange     '0.2.3',
+263 silly addNameRange     '0.2.4',
+263 silly addNameRange     '0.2.5',
+263 silly addNameRange     '0.2.6',
+263 silly addNameRange     '0.3.0',
+263 silly addNameRange     '0.0.1-alpha1',
+263 silly addNameRange     '0.0.2-pre1',
+263 silly addNameRange     '0.0.4-pre1',
+263 silly addNameRange     '0.0.5-pre1',
+263 silly addNameRange     '0.0.5-pre2',
+263 silly addNameRange     '0.0.5-pre3',
+263 silly addNameRange     '0.0.5-pre4',
+263 silly addNameRange     '0.0.6-pre1',
+263 silly addNameRange     '0.0.6-pre2' ] ]
+264 verbose addNamed [ 'shelljs', '0.1.4' ]
+265 verbose addNamed [ '0.1.4', '0.1.4' ]
+266 silly lockFile 77595a32-shelljs-0-1-4 shelljs@0.1.4
+267 verbose lock shelljs@0.1.4 /home/dariusk/.npm/77595a32-shelljs-0-1-4.lock
+268 silly addNameRange number 2 { name: 'underscore', range: '>=1.4.0- <1.5.0-', hasData: true }
+269 silly addNameRange versions [ 'underscore',
+269 silly addNameRange   [ '1.0.3',
+269 silly addNameRange     '1.0.4',
+269 silly addNameRange     '1.1.0',
+269 silly addNameRange     '1.1.1',
+269 silly addNameRange     '1.1.2',
+269 silly addNameRange     '1.1.3',
+269 silly addNameRange     '1.1.4',
+269 silly addNameRange     '1.1.5',
+269 silly addNameRange     '1.1.6',
+269 silly addNameRange     '1.1.7',
+269 silly addNameRange     '1.2.0',
+269 silly addNameRange     '1.2.1',
+269 silly addNameRange     '1.2.2',
+269 silly addNameRange     '1.2.3',
+269 silly addNameRange     '1.2.4',
+269 silly addNameRange     '1.3.0',
+269 silly addNameRange     '1.3.1',
+269 silly addNameRange     '1.3.2',
+269 silly addNameRange     '1.3.3',
+269 silly addNameRange     '1.4.0',
+269 silly addNameRange     '1.4.1',
+269 silly addNameRange     '1.4.2',
+269 silly addNameRange     '1.4.3',
+269 silly addNameRange     '1.4.4',
+269 silly addNameRange     '1.5.0',
+269 silly addNameRange     '1.5.1',
+269 silly addNameRange     '1.5.2',
+269 silly addNameRange     '1.6.0' ] ]
+270 verbose addNamed [ 'underscore', '1.4.4' ]
+271 verbose addNamed [ '1.4.4', '1.4.4' ]
+272 silly lockFile c6b5e825-underscore-1-4-4 underscore@1.4.4
+273 verbose lock underscore@1.4.4 /home/dariusk/.npm/c6b5e825-underscore-1-4-4.lock
+274 verbose read json /home/dariusk/.npm/shelljs/0.1.4/package/package.json
+275 verbose read json /home/dariusk/.npm/underscore/1.4.4/package/package.json
+276 silly lockFile 77595a32-shelljs-0-1-4 shelljs@0.1.4
+277 silly lockFile 77595a32-shelljs-0-1-4 shelljs@0.1.4
+278 silly lockFile c6b5e825-underscore-1-4-4 underscore@1.4.4
+279 silly lockFile c6b5e825-underscore-1-4-4 underscore@1.4.4
+280 silly lockFile cc65d7ed-shelljs-0-1-x shelljs@0.1.x
+281 silly lockFile cc65d7ed-shelljs-0-1-x shelljs@0.1.x
+282 http 304 https://registry.npmjs.org/cli
+283 silly registry.get cb [ 304,
+283 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+283 silly registry.get     server: 'Apache',
+283 silly registry.get     via: '1.1 varnish',
+283 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:50 GMT',
+283 silly registry.get     'cache-control': 'max-age=1',
+283 silly registry.get     etag: '"7FTN4LFPFWRD3WS9MFX6VYPKN"',
+283 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+283 silly registry.get     'x-cache': 'MISS',
+283 silly registry.get     'x-cache-hits': '0',
+283 silly registry.get     'x-timer': 'S1402142570.524637,VS0,VE109',
+283 silly registry.get     vary: 'Accept',
+283 silly registry.get     'content-length': '0',
+283 silly registry.get     'keep-alive': 'timeout=10, max=50',
+283 silly registry.get     connection: 'Keep-Alive' } ]
+284 verbose etag cli from cache
+285 silly lockFile 53dcd9dd-underscore-1-4-x underscore@1.4.x
+286 silly lockFile 53dcd9dd-underscore-1-4-x underscore@1.4.x
+287 http 304 https://registry.npmjs.org/minimatch
+288 silly registry.get cb [ 304,
+288 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+288 silly registry.get     server: 'Apache',
+288 silly registry.get     via: '1.1 varnish',
+288 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:50 GMT',
+288 silly registry.get     'cache-control': 'max-age=1',
+288 silly registry.get     etag: '"64HZ0LR2MPZLWRRTTBF60QUIU"',
+288 silly registry.get     'x-served-by': 'cache-jfk1032-JFK',
+288 silly registry.get     'x-cache': 'HIT',
+288 silly registry.get     'x-cache-hits': '1',
+288 silly registry.get     'x-timer': 'S1402142570.527673,VS0,VE108',
+288 silly registry.get     vary: 'Accept',
+288 silly registry.get     'content-length': '0',
+288 silly registry.get     'keep-alive': 'timeout=10, max=50',
+288 silly registry.get     connection: 'Keep-Alive' } ]
+289 verbose etag minimatch from cache
+290 silly addNameRange number 2 { name: 'cli', range: '>=0.4.0- <0.5.0-', hasData: true }
+291 silly addNameRange versions [ 'cli',
+291 silly addNameRange   [ '0.1.0',
+291 silly addNameRange     '0.1.1',
+291 silly addNameRange     '0.1.3',
+291 silly addNameRange     '0.1.4',
+291 silly addNameRange     '0.1.5',
+291 silly addNameRange     '0.1.6',
+291 silly addNameRange     '0.1.7',
+291 silly addNameRange     '0.1.8',
+291 silly addNameRange     '0.1.9',
+291 silly addNameRange     '0.2.0',
+291 silly addNameRange     '0.2.1-1',
+291 silly addNameRange     '0.2.2-1',
+291 silly addNameRange     '0.2.3-1',
+291 silly addNameRange     '0.2.3-2',
+291 silly addNameRange     '0.2.3-3',
+291 silly addNameRange     '0.2.3-4',
+291 silly addNameRange     '0.2.3-5',
+291 silly addNameRange     '0.2.4-1',
+291 silly addNameRange     '0.2.4-2',
+291 silly addNameRange     '0.2.5',
+291 silly addNameRange     '0.2.6',
+291 silly addNameRange     '0.2.7',
+291 silly addNameRange     '0.2.8',
+291 silly addNameRange     '0.3.0',
+291 silly addNameRange     '0.3.1',
+291 silly addNameRange     '0.3.2',
+291 silly addNameRange     '0.3.3',
+291 silly addNameRange     '0.3.4',
+291 silly addNameRange     '0.3.5',
+291 silly addNameRange     '0.3.6',
+291 silly addNameRange     '0.3.7',
+291 silly addNameRange     '0.3.8',
+291 silly addNameRange     '0.3.9',
+291 silly addNameRange     '0.4.0',
+291 silly addNameRange     '0.4.1',
+291 silly addNameRange     '0.4.2',
+291 silly addNameRange     '0.4.3',
+291 silly addNameRange     '0.4.4',
+291 silly addNameRange     '0.4.4-1',
+291 silly addNameRange     '0.4.4-2',
+291 silly addNameRange     '0.4.5',
+291 silly addNameRange     '0.5.0',
+291 silly addNameRange     '0.6.0',
+291 silly addNameRange     '0.6.2',
+291 silly addNameRange     '0.6.3' ] ]
+292 verbose addNamed [ 'cli', '0.4.5' ]
+293 verbose addNamed [ '0.4.5', '0.4.5' ]
+294 silly lockFile f66b4835-cli-0-4-5 cli@0.4.5
+295 verbose lock cli@0.4.5 /home/dariusk/.npm/f66b4835-cli-0-4-5.lock
+296 silly addNameRange number 2 { name: 'minimatch', range: '>=0.0.0- <1.0.0-', hasData: true }
+297 silly addNameRange versions [ 'minimatch',
+297 silly addNameRange   [ '0.0.1',
+297 silly addNameRange     '0.0.2',
+297 silly addNameRange     '0.0.4',
+297 silly addNameRange     '0.0.5',
+297 silly addNameRange     '0.1.1',
+297 silly addNameRange     '0.1.2',
+297 silly addNameRange     '0.1.3',
+297 silly addNameRange     '0.1.4',
+297 silly addNameRange     '0.1.5',
+297 silly addNameRange     '0.2.0',
+297 silly addNameRange     '0.2.2',
+297 silly addNameRange     '0.2.3',
+297 silly addNameRange     '0.2.4',
+297 silly addNameRange     '0.2.5',
+297 silly addNameRange     '0.2.6',
+297 silly addNameRange     '0.2.7',
+297 silly addNameRange     '0.2.8',
+297 silly addNameRange     '0.2.9',
+297 silly addNameRange     '0.2.10',
+297 silly addNameRange     '0.2.11',
+297 silly addNameRange     '0.2.12',
+297 silly addNameRange     '0.2.13',
+297 silly addNameRange     '0.2.14',
+297 silly addNameRange     '0.3.0' ] ]
+298 verbose addNamed [ 'minimatch', '0.3.0' ]
+299 verbose addNamed [ '0.3.0', '0.3.0' ]
+300 silly lockFile fbcfe8c1-minimatch-0-3-0 minimatch@0.3.0
+301 verbose lock minimatch@0.3.0 /home/dariusk/.npm/fbcfe8c1-minimatch-0-3-0.lock
+302 verbose read json /home/dariusk/.npm/cli/0.4.5/package/package.json
+303 verbose read json /home/dariusk/.npm/minimatch/0.3.0/package/package.json
+304 silly lockFile f66b4835-cli-0-4-5 cli@0.4.5
+305 silly lockFile f66b4835-cli-0-4-5 cli@0.4.5
+306 silly lockFile fbcfe8c1-minimatch-0-3-0 minimatch@0.3.0
+307 silly lockFile fbcfe8c1-minimatch-0-3-0 minimatch@0.3.0
+308 silly lockFile c9212ae8-cli-0-4-x cli@0.4.x
+309 silly lockFile c9212ae8-cli-0-4-x cli@0.4.x
+310 silly lockFile 38c78372-minimatch-0-x-x minimatch@0.x.x
+311 silly lockFile 38c78372-minimatch-0-x-x minimatch@0.x.x
+312 http 304 https://registry.npmjs.org/console-browserify
+313 silly registry.get cb [ 304,
+313 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+313 silly registry.get     server: 'Apache',
+313 silly registry.get     via: '1.1 varnish',
+313 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:50 GMT',
+313 silly registry.get     'cache-control': 'max-age=1',
+313 silly registry.get     etag: '"1Q8V5LMWXPIS81SBEJTWCW77R"',
+313 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+313 silly registry.get     'x-cache': 'HIT',
+313 silly registry.get     'x-cache-hits': '1',
+313 silly registry.get     'x-timer': 'S1402142570.563066,VS0,VE159',
+313 silly registry.get     vary: 'Accept',
+313 silly registry.get     'content-length': '0',
+313 silly registry.get     'keep-alive': 'timeout=10, max=50',
+313 silly registry.get     connection: 'Keep-Alive' } ]
+314 verbose etag console-browserify from cache
+315 silly addNameRange number 2 { name: 'console-browserify',
+315 silly addNameRange   range: '>=0.1.0- <0.2.0-',
+315 silly addNameRange   hasData: true }
+316 silly addNameRange versions [ 'console-browserify',
+316 silly addNameRange   [ '0.1.0',
+316 silly addNameRange     '0.1.1',
+316 silly addNameRange     '0.1.2',
+316 silly addNameRange     '0.1.3',
+316 silly addNameRange     '0.1.4',
+316 silly addNameRange     '0.1.5',
+316 silly addNameRange     '0.1.6',
+316 silly addNameRange     '1.0.1',
+316 silly addNameRange     '1.0.2',
+316 silly addNameRange     '1.0.3',
+316 silly addNameRange     '1.1.0' ] ]
+317 verbose addNamed [ 'console-browserify', '0.1.6' ]
+318 verbose addNamed [ '0.1.6', '0.1.6' ]
+319 silly lockFile f41566ee-console-browserify-0-1-6 console-browserify@0.1.6
+320 verbose lock console-browserify@0.1.6 /home/dariusk/.npm/f41566ee-console-browserify-0-1-6.lock
+321 verbose read json /home/dariusk/.npm/console-browserify/0.1.6/package/package.json
+322 silly lockFile f41566ee-console-browserify-0-1-6 console-browserify@0.1.6
+323 silly lockFile f41566ee-console-browserify-0-1-6 console-browserify@0.1.6
+324 silly lockFile e69eec4c-console-browserify-0-1-x console-browserify@0.1.x
+325 silly lockFile e69eec4c-console-browserify-0-1-x console-browserify@0.1.x
+326 silly resolved [ { name: 'shelljs',
+326 silly resolved     version: '0.1.4',
+326 silly resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+326 silly resolved     description: 'Portable Unix shell commands for Node.js',
+326 silly resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+326 silly resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+326 silly resolved     homepage: 'http://github.com/arturadib/shelljs',
+326 silly resolved     main: './shell.js',
+326 silly resolved     scripts: { test: 'node scripts/run-tests' },
+326 silly resolved     bin: { shjs: './bin/shjs' },
+326 silly resolved     dependencies: {},
+326 silly resolved     devDependencies: { jshint: '~1.1.0' },
+326 silly resolved     optionalDependencies: {},
+326 silly resolved     engines: { node: '*' },
+326 silly resolved     readme: '# ShellJS - Unix shell commands for Node.js [![Build Status](https://secure.travis-ci.org/arturadib/shelljs.png)](http://travis-ci.org/arturadib/shelljs)\n\nShellJS is a portable **(Windows/Linux/OS X)** implementation of Unix shell commands on top of the Node.js API. You can use it to eliminate your shell script\'s dependency on Unix while still keeping its familiar and powerful commands. You can also install it globally so you can run it from outside Node projects - say goodbye to those gnarly Bash scripts!\n\nThe project is [unit-tested](http://travis-ci.org/arturadib/shelljs) and battled-tested in projects like:\n\n+ [PDF.js](http://github.com/mozilla/pdf.js) - Firefox\'s next-gen PDF reader\n+ [Firebug](http://getfirebug.com/) - Firefox\'s infamous debugger\n+ [JSHint](http://jshint.com) - Most popular JavaScript linter\n+ [Zepto](http://zeptojs.com) - jQuery-compatible JavaScript library for modern browsers\n+ [Yeoman](http://yeoman.io/) - Web application stack and development tool\n+ [Deployd.com](http://deployd.com) - Open source PaaS for quick API backend generation\n\nand [many more](https://npmjs.org/browse/depended/shelljs).\n\n## Installing\n\nVia npm:\n\n```bash\n$ npm install [-g] shelljs\n```\n\nIf the global option `-g` is specified, the binary `shjs` will be installed. This makes it possible to\nrun ShellJS scripts much like any shell script from the command line, i.e. without requiring a `node_modules` folder:\n\n```bash\n$ shjs my_script\n```\n\nYou can also just copy `shell.js` into your project\'s directory, and `require()` accordingly.\n\n\n## Examples\n\n### JavaScript\n\n```javascript\nrequire(\'shelljs/global\');\n\nif (!which(\'git\')) {\n  echo(\'Sorry, this script requires git\');\n  exit(1);\n}\n\n// Copy files to release dir\nmkdir(\'-p\', \'out/Release\');\ncp(\'-R\', \'stuff/*\', \'out/Release\');\n\n// Replace macros in each .js file\ncd(\'lib\');\nls(\'*.js\').forEach(function(file) {\n  sed(\'-i\', \'BUILD_VERSION\', \'v0.1.2\', file);\n  sed(\'-i\', /.*REMOVE_THIS_LINE.*\\n/, \'\', file);\n  sed(\'-i\', /.*REPLACE_LINE_WITH_MACRO.*\\n/, cat(\'macro.js\'), file);\n});\ncd(\'..\');\n\n// Run external tool synchronously\nif (exec(\'git commit -am "Auto-commit"\').code !== 0) {\n  echo(\'Error: Git commit failed\');\n  exit(1);\n}\n```\n\n### CoffeeScript\n\n```coffeescript\nrequire \'shelljs/global\'\n\nif not which \'git\'\n  echo \'Sorry, this script requires git\'\n  exit 1\n\n# Copy files to release dir\nmkdir \'-p\', \'out/Release\'\ncp \'-R\', \'stuff/*\', \'out/Release\'\n\n# Replace macros in each .js file\ncd \'lib\'\nfor file in ls \'*.js\'\n  sed \'-i\', \'BUILD_VERSION\', \'v0.1.2\', file\n  sed \'-i\', /.*REMOVE_THIS_LINE.*\\n/, \'\', file\n  sed \'-i\', /.*REPLACE_LINE_WITH_MACRO.*\\n/, cat \'macro.js\', file\ncd \'..\'\n\n# Run external tool synchronously\nif (exec \'git commit -am "Auto-commit"\').code != 0\n  echo \'Error: Git commit failed\'\n  exit 1\n```\n\n## Global vs. Local\n\nThe example above uses the convenience script `shelljs/global` to reduce verbosity. If polluting your global namespace is not desirable, simply require `shelljs`.\n\nExample:\n\n```javascript\nvar shell = require(\'shelljs\');\nshell.echo(\'hello world\');\n```\n\n## Make tool\n\nA convenience script `shelljs/make` is also provided to mimic the behavior of a Unix Makefile. In this case all shell objects are global, and command line arguments will cause the script to execute only the corresponding function in the global `target` object. To avoid redundant calls, target functions are executed only once per script.\n\nExample (CoffeeScript):\n\n```coffeescript\nrequire \'shelljs/make\'\n\ntarget.all = ->\n  target.bundle()\n  target.docs()\n\ntarget.bundle = ->\n  cd __dirname\n  mkdir \'build\'\n  cd \'lib\'\n  (cat \'*.js\').to \'../build/output.js\'\n\ntarget.docs = ->\n  cd __dirname\n  mkdir \'docs\'\n  cd \'lib\'\n  for file in ls \'*.js\'\n    text = grep \'//@\', file     # extract special comments\n    text.replace \'//@\', \'\'      # remove comment tags\n    text.to \'docs/my_docs.md\'\n```\n\nTo run the target `all`, call the above script without arguments: `$ node make`. To run the target `docs`: `$ node make docs`, and so on.\n\n\n\n<!-- \n\n  DO NOT MODIFY BEYOND THIS POINT - IT\'S AUTOMATICALLY GENERATED\n\n-->\n\n\n## Command reference\n\n\nAll commands run synchronously, unless otherwise stated.\n\n\n### cd(\'dir\')\nChanges to directory `dir` for the duration of the script\n\n### pwd()\nReturns the current directory.\n\n### ls([options ,] path [,path ...])\n### ls([options ,] path_array)\nAvailable options:\n\n+ `-R`: recursive\n+ `-A`: all files (include files beginning with `.`, except for `.` and `..`)\n\nExamples:\n\n```javascript\nls(\'projs/*.js\');\nls(\'-R\', \'/users/me\', \'/tmp\');\nls(\'-R\', [\'/users/me\', \'/tmp\']); // same as above\n```\n\nReturns array of files in the given path, or in current directory if no path provided.\n\n### find(path [,path ...])\n### find(path_array)\nExamples:\n\n```javascript\nfind(\'src\', \'lib\');\nfind([\'src\', \'lib\']); // same as above\nfind(\'.\').filter(function(file) { return file.match(/\\.js$/); });\n```\n\nReturns array of all files (however deep) in the given paths.\n\nThe main difference from `ls(\'-R\', path)` is that the resulting file names\ninclude the base directories, e.g. `lib/resources/file1` instead of just `file1`.\n\n### cp([options ,] source [,source ...], dest)\n### cp([options ,] source_array, dest)\nAvailable options:\n\n+ `-f`: force\n+ `-r, -R`: recursive\n\nExamples:\n\n```javascript\ncp(\'file1\', \'dir1\');\ncp(\'-Rf\', \'/tmp/*\', \'/usr/local/*\', \'/home/tmp\');\ncp(\'-Rf\', [\'/tmp/*\', \'/usr/local/*\'], \'/home/tmp\'); // same as above\n```\n\nCopies files. The wildcard `*` is accepted.\n\n### rm([options ,] file [, file ...])\n### rm([options ,] file_array)\nAvailable options:\n\n+ `-f`: force\n+ `-r, -R`: recursive\n\nExamples:\n\n```javascript\nrm(\'-rf\', \'/tmp/*\');\nrm(\'some_file.txt\', \'another_file.txt\');\nrm([\'some_file.txt\', \'another_file.txt\']); // same as above\n```\n\nRemoves files. The wildcard `*` is accepted.\n\n### mv(source [, source ...], dest\')\n### mv(source_array, dest\')\nAvailable options:\n\n+ `f`: force\n\nExamples:\n\n```javascript\nmv(\'-f\', \'file\', \'dir/\');\nmv(\'file1\', \'file2\', \'dir/\');\nmv([\'file1\', \'file2\'], \'dir/\'); // same as above\n```\n\nMoves files. The wildcard `*` is accepted.\n\n### mkdir([options ,] dir [, dir ...])\n### mkdir([options ,] dir_array)\nAvailable options:\n\n+ `p`: full path (will create intermediate dirs if necessary)\n\nExamples:\n\n```javascript\nmkdir(\'-p\', \'/tmp/a/b/c/d\', \'/tmp/e/f/g\');\nmkdir(\'-p\', [\'/tmp/a/b/c/d\', \'/tmp/e/f/g\']); // same as above\n```\n\nCreates directories.\n\n### test(expression)\nAvailable expression primaries:\n\n+ `\'-b\', \'path\'`: true if path is a block device\n+ `\'-c\', \'path\'`: true if path is a character device\n+ `\'-d\', \'path\'`: true if path is a directory\n+ `\'-e\', \'path\'`: true if path exists\n+ `\'-f\', \'path\'`: true if path is a regular file\n+ `\'-L\', \'path\'`: true if path is a symboilc link\n+ `\'-p\', \'path\'`: true if path is a pipe (FIFO)\n+ `\'-S\', \'path\'`: true if path is a socket\n\nExamples:\n\n```javascript\nif (test(\'-d\', path)) { /* do something with dir */ };\nif (!test(\'-f\', path)) continue; // skip if it\'s a regular file\n```\n\nEvaluates expression using the available primaries and returns corresponding value.\n\n### cat(file [, file ...])\n### cat(file_array)\n\nExamples:\n\n```javascript\nvar str = cat(\'file*.txt\');\nvar str = cat(\'file1\', \'file2\');\nvar str = cat([\'file1\', \'file2\']); // same as above\n```\n\nReturns a string containing the given file, or a concatenated string\ncontaining the files if more than one file is given (a new line character is\nintroduced between each file). Wildcard `*` accepted.\n\n### \'string\'.to(file)\n\nExamples:\n\n```javascript\ncat(\'input.txt\').to(\'output.txt\');\n```\n\nAnalogous to the redirection operator `>` in Unix, but works with JavaScript strings (such as\nthose returned by `cat`, `grep`, etc). _Like Unix redirections, `to()` will overwrite any existing file!_\n\n### sed([options ,] search_regex, replace_str, file)\nAvailable options:\n\n+ `-i`: Replace contents of \'file\' in-place. _Note that no backups will be created!_\n\nExamples:\n\n```javascript\nsed(\'-i\', \'PROGRAM_VERSION\', \'v0.1.3\', \'source.js\');\nsed(/.*DELETE_THIS_LINE.*\\n/, \'\', \'source.js\');\n```\n\nReads an input string from `file` and performs a JavaScript `replace()` on the input\nusing the given search regex and replacement string. Returns the new string after replacement.\n\n### grep([options ,] regex_filter, file [, file ...])\n### grep([options ,] regex_filter, file_array)\nAvailable options:\n\n+ `-v`: Inverse the sense of the regex and print the lines not matching the criteria.\n\nExamples:\n\n```javascript\ngrep(\'-v\', \'GLOBAL_VARIABLE\', \'*.js\');\ngrep(\'GLOBAL_VARIABLE\', \'*.js\');\n```\n\nReads input string from given files and returns a string containing all lines of the\nfile that match the given `regex_filter`. Wildcard `*` accepted.\n\n### which(command)\n\nExamples:\n\n```javascript\nvar nodeExec = which(\'node\');\n```\n\nSearches for `command` in the system\'s PATH. On Windows looks for `.exe`, `.cmd`, and `.bat` extensions.\nReturns string containing the absolute path to the command.\n\n### echo(string [,string ...])\n\nExamples:\n\n```javascript\necho(\'hello world\');\nvar str = echo(\'hello world\');\n```\n\nPrints string to stdout, and returns string with additional utility methods\nlike `.to()`.\n\n### dirs([options | \'+N\' | \'-N\'])\n\nAvailable options:\n\n+ `-c`: Clears the directory stack by deleting all of the elements.\n\nArguments:\n\n+ `+N`: Displays the Nth directory (counting from the left of the list printed by dirs when invoked without options), starting with zero.\n+ `-N`: Displays the Nth directory (counting from the right of the list printed by dirs when invoked without options), starting with zero.\n\nDisplay the list of currently remembered directories. Returns an array of paths in the stack, or a single path if +N or -N was specified.\n\nSee also: pushd, popd\n\n### pushd([options,] [dir | \'-N\' | \'+N\'])\n\nAvailable options:\n\n+ `-n`: Suppresses the normal change of directory when adding directories to the stack, so that only the stack is manipulated.\n\nArguments:\n\n+ `dir`: Makes the current working directory be the top of the stack, and then executes the equivalent of `cd dir`.\n+ `+N`: Brings the Nth directory (counting from the left of the list printed by dirs, starting with zero) to the top of the list by rotating the stack.\n+ `-N`: Brings the Nth directory (counting from the right of the list printed by dirs, starting with zero) to the top of the list by rotating the stack.\n\nExamples:\n\n```javascript\n// process.cwd() === \'/usr\'\npushd(\'/etc\'); // Returns /etc /usr\npushd(\'+1\');   // Returns /usr /etc\n```\n\nSave the current directory on the top of the directory stack and then cd to `dir`. With no arguments, pushd exchanges the top two directories. Returns an array of paths in the stack.\n\n### popd([options,] [\'-N\' | \'+N\'])\n\nAvailable options:\n\n+ `-n`: Suppresses the normal change of directory when removing directories from the stack, so that only the stack is manipulated.\n\nArguments:\n\n+ `+N`: Removes the Nth directory (counting from the left of the list printed by dirs), starting with zero.\n+ `-N`: Removes the Nth directory (counting from the right of the list printed by dirs), starting with zero.\n\nExamples:\n\n```javascript\necho(process.cwd()); // \'/usr\'\npushd(\'/etc\');       // \'/etc /usr\'\necho(process.cwd()); // \'/etc\'\npopd();              // \'/usr\'\necho(process.cwd()); // \'/usr\'\n```\n\nWhen no arguments are given, popd removes the top directory from the stack and performs a cd to the new top directory. The elements are numbered from 0 starting at the first directory listed with dirs; i.e., popd is equivalent to popd +0. Returns an array of paths in the stack.\n\n### exit(code)\nExits the current process with the given exit code.\n\n### env[\'VAR_NAME\']\nObject containing environment variables (both getter and setter). Shortcut to process.env.\n\n### exec(command [, options] [, callback])\nAvailable options (all `false` by default):\n\n+ `async`: Asynchronous execution. Defaults to true if a callback is provided.\n+ `silent`: Do not echo program output to console.\n\nExamples:\n\n```javascript\nvar version = exec(\'node --version\', {silent:true}).output;\n\nvar child = exec(\'some_long_running_process\', {async:true});\nchild.stdout.on(\'data\', function(data) {\n  /* ... do something with data ... */\n});\n\nexec(\'some_long_running_process\', function(code, output) {\n  console.log(\'Exit code:\', code);\n  console.log(\'Program output:\', output);\n});\n```\n\nExecutes the given `command` _synchronously_, unless otherwise specified.\nWhen in synchronous mode returns the object `{ code:..., output:... }`, containing the program\'s\n`output` (stdout + stderr)  and its exit `code`. Otherwise returns the child process object, and\nthe `callback` gets the arguments `(code, output)`.\n\n**Note:** For long-lived processes, it\'s best to run `exec()` asynchronously as\nthe current synchronous implementation uses a lot of CPU. This should be getting\nfixed soon.\n\n### chmod(octal_mode || octal_string, file)\n### chmod(symbolic_mode, file)\n\nAvailable options:\n\n+ `-v`: output a diagnostic for every file processed\n+ `-c`: like verbose but report only when a change is made\n+ `-R`: change files and directories recursively\n\nExamples:\n\n```javascript\nchmod(755, \'/Users/brandon\');\nchmod(\'755\', \'/Users/brandon\'); // same as above \nchmod(\'u+x\', \'/Users/brandon\');\n```\n\nAlters the permissions of a file or directory by either specifying the\nabsolute permissions in octal form or expressing the changes in symbols.\nThis command tries to mimic the POSIX behavior as much as possible.\nNotable exceptions:\n\n+ In symbolic modes, \'a-r\' and \'-r\' are identical.  No consideration is\n  given to the umask.\n+ There is no "quiet" option since default behavior is to run silent.\n\n## Configuration\n\n\n### config.silent\nExample:\n\n```javascript\nvar silentState = config.silent; // save old silent state\nconfig.silent = true;\n/* ... */\nconfig.silent = silentState; // restore old silent state\n```\n\nSuppresses all command output if `true`, except for `echo()` calls.\nDefault is `false`.\n\n### config.fatal\nExample:\n\n```javascript\nconfig.fatal = true;\ncp(\'this_file_does_not_exist\', \'/dev/null\'); // dies here\n/* more commands... */\n```\n\nIf `true` the script will die on errors. Default is `false`.\n\n## Non-Unix commands\n\n\n### tempdir()\nSearches and returns string containing a writeable, platform-dependent temporary directory.\nFollows Python\'s [tempfile algorithm](http://docs.python.org/library/tempfile.html#tempfile.tempdir).\n\n### error()\nTests if error occurred in the last command. Returns `null` if no error occurred,\notherwise returns string explaining the error\n',
+326 silly resolved     readmeFilename: 'README.md',
+326 silly resolved     bugs: { url: 'https://github.com/arturadib/shelljs/issues' },
+326 silly resolved     _id: 'shelljs@0.1.4',
+326 silly resolved     _from: 'shelljs@0.1.x' },
+326 silly resolved   { name: 'underscore',
+326 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+326 silly resolved     homepage: 'http://underscorejs.org',
+326 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+326 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+326 silly resolved     repository:
+326 silly resolved      { type: 'git',
+326 silly resolved        url: 'git://github.com/documentcloud/underscore.git' },
+326 silly resolved     main: 'underscore.js',
+326 silly resolved     version: '1.4.4',
+326 silly resolved     devDependencies: { phantomjs: '0.2.2' },
+326 silly resolved     scripts: { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true' },
+326 silly resolved     readme: '                       __\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://underscorejs.org\n\nMany thanks to our contributors:\nhttps://github.com/documentcloud/underscore/contributors\n',
+326 silly resolved     readmeFilename: 'README.md',
+326 silly resolved     bugs: { url: 'https://github.com/documentcloud/underscore/issues' },
+326 silly resolved     _id: 'underscore@1.4.4',
+326 silly resolved     _from: 'underscore@1.4.x' },
+326 silly resolved   { name: 'cli',
+326 silly resolved     description: 'A tool for rapidly building command line apps',
+326 silly resolved     version: '0.4.5',
+326 silly resolved     homepage: 'http://github.com/chriso/cli',
+326 silly resolved     keywords:
+326 silly resolved      [ 'cli',
+326 silly resolved        'command line',
+326 silly resolved        'opts',
+326 silly resolved        'parseopt',
+326 silly resolved        'opt',
+326 silly resolved        'args',
+326 silly resolved        'console',
+326 silly resolved        'argsparse',
+326 silly resolved        'optparse',
+326 silly resolved        'daemon',
+326 silly resolved        'autocomplete',
+326 silly resolved        'command',
+326 silly resolved        'autocompletion' ],
+326 silly resolved     author: { name: 'Chris O\'Hara', email: 'cohara87@gmail.com' },
+326 silly resolved     main: 'cli.js',
+326 silly resolved     bugs: { url: 'http://github.com/chriso/cli/issues' },
+326 silly resolved     repository: { type: 'git', url: 'http://github.com/chriso/cli.git' },
+326 silly resolved     dependencies: { glob: '>= 3.1.4' },
+326 silly resolved     contributors: [ [Object] ],
+326 silly resolved     engines: { node: '>=0.2.5' },
+326 silly resolved     licenses: [ [Object] ],
+326 silly resolved     readme: '**cli is a toolkit for rapidly building command line apps - it includes:**\n\n- Full featured opts/args parser\n- Plugin support for adding common options and switches\n- Helper methods for working with input/output and spawning child processes\n- Output colored/styled messages, [progress bars](https://github.com/chriso/cli/blob/master/examples/progress.js) or [spinners](https://github.com/chriso/cli/blob/master/examples/spinner.js)\n- Command [auto-completion](https://github.com/chriso/cli/blob/master/examples/command.js) and [glob support](https://github.com/chriso/cli/blob/master/examples/glob.js)\n\nInstall using `npm install cli` or just bundle [cli.js](https://github.com/chriso/cli/raw/master/cli-min.js) with your app.\n\n## Example apps\n\n### sort.js\n\n```javascript\n#!/usr/bin/env node\nrequire(\'cli\').withStdinLines(function(lines, newline) {\n    this.output(lines.sort().join(newline));\n});\n```\n\nTry it out\n\n```bash\n$ ./sort.js < input.txt\n```\n\nLet\'s add support for an `-n` switch to use a numeric sort, and a `-r` switch to reverse output - only 5 extra lines of code (!)\n\n```javascript\nvar cli = require(\'cli\'), options = cli.parse();\n\ncli.withStdinLines(function(lines, newline) {\n    lines.sort(!options.n ? null : function(a, b) {\n        return parseInt(a) > parseInt(b);\n    });\n    if (options.r) lines.reverse();\n    this.output(lines.join(newline));\n});\n```\n\n### static.js\n\nLet\'s create a static file server with daemon support to see the opts parser + plugins in use - note: this requires `npm install creationix daemon`\n\n```javascript\nvar cli = require(\'cli\').enable(\'daemon\', \'status\'); //Enable 2 plugins\n\ncli.parse({\n    log:   [\'l\', \'Enable logging\'],\n    port:  [\'p\', \'Listen on this port\', \'number\', 8080],\n    serve: [false, \'Serve static files from PATH\', \'path\', \'./public\']\n});\n\ncli.main(function(args, options) {\n    var server, middleware = [];\n\n    if (options.log) {\n        this.debug(\'Enabling logging\');\n        middleware.push(require(\'creationix/log\')());\n    }\n\n    this.debug(\'Serving files from \' + options.serve);\n    middleware.push(require(\'creationix/static\')(\'/\', options.serve, \'index.html\'));\n\n    server = this.createServer(middleware).listen(options.port);\n\n    this.ok(\'Listening on port \' + options.port);\n});\n```\n\nTo output usage information\n\n```bash\n$ ./static.js --help\n```\n\nTo create a daemon that serves files from */tmp*, run\n\n```bash\n$ ./static.js -ld --serve=/tmp\n```\n\nFor more examples, see [./examples](https://github.com/chriso/cli/tree/master/examples)\n\n## Helper methods\n\ncli has methods that collect stdin (newline is autodetected as \\n or \\r\\n)\n\n```javascript\ncli.withStdin(callback);        //callback receives stdin as a string\ncli.withStdinLines(callback);   //callback receives stdin split into an array of lines (lines, newline)\n```\n\ncli also has a lower level method for working with input line by line (see [./examples/cat.js](https://github.com/chriso/cli/blob/master/examples/cat.js) for an example). \n\n```javascript\ncli.withInput(file, function (line, newline, eof) {\n    if (!eof) {\n        this.output(line + newline);\n    }\n});\n```\n\n*Note: `file` can be omitted if you want to work with stdin*\n\nTo output a progress bar, call\n\n```javascript\ncli.progress(progress); //Where 0 <= progress <= 1\n```\n\nTo spawn a child process, use\n\n```javascript\ncli.exec(cmd, callback); //callback receives the output of the process (split into lines)\n```\n\ncli also comes bundled with kof\'s [node-natives](https://github.com/kof/node-natives) (access with cli.native) and creationix\' [stack](https://github.com/creationix/stack) (access with cli.createServer)\n\n## Plugins\n\nPlugins are a way of adding common opts and can be enabled using \n\n```javascript\ncli.enable(plugin1, [plugin2, ...]);  //To disable, use the equivalent disable() method\n```\n\n**help** - *enabled by default*\n\nAdds `-h,--help` to output auto-generated usage information\n\n**version**\n\nAdds `-v,--version` to output version information for the app. cli will attempt to locate and parse a nearby *package.json*\n\nTo set your own app name and version, use `cli.setApp(app_name, version)`\n\n**status**\n\nAdds options to show/hide the stylized status messages that are output to the console when using one of these methods\n\n```javascript\ncli.debug(msg);  //Only shown when using --debug\ncli.error(msg);\ncli.fatal(msg);  //Exits the process after outputting msg\ncli.info(msg);\ncli.ok(msg);\n```\n\n`-k,--no-color` will omit ANSI color escapes from the output\n\n**glob**  - *requires* `npm install glob`\n\nEnables glob matching of arguments\n\n**daemon**  - *requires* `npm install daemon`\n\nAdds `-d,--daemon ARG` for daemonizing the process and controlling the resulting daemon\n\n`ARG` can be either start (default), stop, restart, pid (outputs the daemon\'s pid if it\'s running), or log (output the daemon\'s stdout+stderr)\n\n**timeout**\n\nAdds `-t,--timeout N` to exit the process after N seconds with an error\n\n**catchall**\n\nAdds `-c,--catch` to catch and output uncaughtExceptions and resume execution\n\n*Note: Plugins are automatically disabled if an option or switch of the same name is already defined*\n\n## LICENSE\n\n(MIT license)\n\nCopyright (c) 2010 Chris O\'Hara <cohara87@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+326 silly resolved     readmeFilename: 'README.md',
+326 silly resolved     _id: 'cli@0.4.5',
+326 silly resolved     _from: 'cli@0.4.x' },
+326 silly resolved   { author:
+326 silly resolved      { name: 'Isaac Z. Schlueter',
+326 silly resolved        email: 'i@izs.me',
+326 silly resolved        url: 'http://blog.izs.me' },
+326 silly resolved     name: 'minimatch',
+326 silly resolved     description: 'a glob matcher in javascript',
+326 silly resolved     version: '0.3.0',
+326 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/minimatch.git' },
+326 silly resolved     main: 'minimatch.js',
+326 silly resolved     scripts: { test: 'tap test/*.js' },
+326 silly resolved     engines: { node: '*' },
+326 silly resolved     dependencies: { 'lru-cache': '2', sigmund: '~1.0.0' },
+326 silly resolved     devDependencies: { tap: '' },
+326 silly resolved     license:
+326 silly resolved      { type: 'MIT',
+326 silly resolved        url: 'http://github.com/isaacs/minimatch/raw/master/LICENSE' },
+326 silly resolved     readme: '# minimatch\n\nA minimal matching utility.\n\n[![Build Status](https://secure.travis-ci.org/isaacs/minimatch.png)](http://travis-ci.org/isaacs/minimatch)\n\n\nThis is the matching library used internally by npm.\n\nEventually, it will replace the C binding in node-glob.\n\nIt works by converting glob expressions into JavaScript `RegExp`\nobjects.\n\n## Usage\n\n```javascript\nvar minimatch = require("minimatch")\n\nminimatch("bar.foo", "*.foo") // true!\nminimatch("bar.foo", "*.bar") // false!\nminimatch("bar.foo", "*.+(bar|foo)", { debug: true }) // true, and noisy!\n```\n\n## Features\n\nSupports these glob features:\n\n* Brace Expansion\n* Extended glob matching\n* "Globstar" `**` matching\n\nSee:\n\n* `man sh`\n* `man bash`\n* `man 3 fnmatch`\n* `man 5 gitignore`\n\n## Minimatch Class\n\nCreate a minimatch object by instanting the `minimatch.Minimatch` class.\n\n```javascript\nvar Minimatch = require("minimatch").Minimatch\nvar mm = new Minimatch(pattern, options)\n```\n\n### Properties\n\n* `pattern` The original pattern the minimatch object represents.\n* `options` The options supplied to the constructor.\n* `set` A 2-dimensional array of regexp or string expressions.\n  Each row in the\n  array corresponds to a brace-expanded pattern.  Each item in the row\n  corresponds to a single path-part.  For example, the pattern\n  `{a,b/c}/d` would expand to a set of patterns like:\n\n        [ [ a, d ]\n        , [ b, c, d ] ]\n\n    If a portion of the pattern doesn\'t have any "magic" in it\n    (that is, it\'s something like `"foo"` rather than `fo*o?`), then it\n    will be left as a string rather than converted to a regular\n    expression.\n\n* `regexp` Created by the `makeRe` method.  A single regular expression\n  expressing the entire pattern.  This is useful in cases where you wish\n  to use the pattern somewhat like `fnmatch(3)` with `FNM_PATH` enabled.\n* `negate` True if the pattern is negated.\n* `comment` True if the pattern is a comment.\n* `empty` True if the pattern is `""`.\n\n### Methods\n\n* `makeRe` Generate the `regexp` member if necessary, and return it.\n  Will return `false` if the pattern is invalid.\n* `match(fname)` Return true if the filename matches the pattern, or\n  false otherwise.\n* `matchOne(fileArray, patternArray, partial)` Take a `/`-split\n  filename, and match it against a single row in the `regExpSet`.  This\n  method is mainly for internal use, but is exposed so that it can be\n  used by a glob-walker that needs to avoid excessive filesystem calls.\n\nAll other methods are internal, and will be called as necessary.\n\n## Functions\n\nThe top-level exported function has a `cache` property, which is an LRU\ncache set to store 100 items.  So, calling these methods repeatedly\nwith the same pattern and options will use the same Minimatch object,\nsaving the cost of parsing it multiple times.\n\n### minimatch(path, pattern, options)\n\nMain export.  Tests a path against the pattern using the options.\n\n```javascript\nvar isJS = minimatch(file, "*.js", { matchBase: true })\n```\n\n### minimatch.filter(pattern, options)\n\nReturns a function that tests its\nsupplied argument, suitable for use with `Array.filter`.  Example:\n\n```javascript\nvar javascripts = fileList.filter(minimatch.filter("*.js", {matchBase: true}))\n```\n\n### minimatch.match(list, pattern, options)\n\nMatch against the list of\nfiles, in the style of fnmatch or glob.  If nothing is matched, and\noptions.nonull is set, then return a list containing the pattern itself.\n\n```javascript\nvar javascripts = minimatch.match(fileList, "*.js", {matchBase: true}))\n```\n\n### minimatch.makeRe(pattern, options)\n\nMake a regular expression object from the pattern.\n\n## Options\n\nAll options are `false` by default.\n\n### debug\n\nDump a ton of stuff to stderr.\n\n### nobrace\n\nDo not expand `{a,b}` and `{1..3}` brace sets.\n\n### noglobstar\n\nDisable `**` matching against multiple folder names.\n\n### dot\n\nAllow patterns to match filenames starting with a period, even if\nthe pattern does not explicitly have a period in that spot.\n\nNote that by default, `a/**/b` will **not** match `a/.d/b`, unless `dot`\nis set.\n\n### noext\n\nDisable "extglob" style patterns like `+(a|b)`.\n\n### nocase\n\nPerform a case-insensitive match.\n\n### nonull\n\nWhen a match is not found by `minimatch.match`, return a list containing\nthe pattern itself if this option is set.  When not set, an empty list\nis returned if there are no matches.\n\n### matchBase\n\nIf set, then patterns without slashes will be matched\nagainst the basename of the path if it contains slashes.  For example,\n`a?b` would match the path `/xyz/123/acb`, but not `/xyz/acb/123`.\n\n### nocomment\n\nSuppress the behavior of treating `#` at the start of a pattern as a\ncomment.\n\n### nonegate\n\nSuppress the behavior of treating a leading `!` character as negation.\n\n### flipNegate\n\nReturns from negate expressions the same as if they were not negated.\n(Ie, true on a hit, false on a miss.)\n\n\n## Comparisons to other fnmatch/glob implementations\n\nWhile strict compliance with the existing standards is a worthwhile\ngoal, some discrepancies exist between minimatch and other\nimplementations, and are intentional.\n\nIf the pattern starts with a `!` character, then it is negated.  Set the\n`nonegate` flag to suppress this behavior, and treat leading `!`\ncharacters normally.  This is perhaps relevant if you wish to start the\npattern with a negative extglob pattern like `!(a|B)`.  Multiple `!`\ncharacters at the start of a pattern will negate the pattern multiple\ntimes.\n\nIf a pattern starts with `#`, then it is treated as a comment, and\nwill not match anything.  Use `\\#` to match a literal `#` at the\nstart of a line, or set the `nocomment` flag to suppress this behavior.\n\nThe double-star character `**` is supported by default, unless the\n`noglobstar` flag is set.  This is supported in the manner of bsdglob\nand bash 4.1, where `**` only has special significance if it is the only\nthing in a path part.  That is, `a/**/b` will match `a/x/y/b`, but\n`a/**b` will not.\n\nIf an escaped pattern has no matches, and the `nonull` flag is set,\nthen minimatch.match returns the pattern as-provided, rather than\ninterpreting the character escapes.  For example,\n`minimatch.match([], "\\\\*a\\\\?")` will return `"\\\\*a\\\\?"` rather than\n`"*a?"`.  This is akin to setting the `nullglob` option in bash, except\nthat it does not resolve escaped pattern characters.\n\nIf brace expansion is not disabled, then it is performed before any\nother interpretation of the glob pattern.  Thus, a pattern like\n`+(a|{b),c)}`, which would not be valid in bash or zsh, is expanded\n**first** into the set of `+(a|b)` and `+(a|c)`, and those patterns are\nchecked for validity.  Since those two are valid, matching proceeds.\n',
+326 silly resolved     readmeFilename: 'README.md',
+326 silly resolved     bugs: { url: 'https://github.com/isaacs/minimatch/issues' },
+326 silly resolved     _id: 'minimatch@0.3.0',
+326 silly resolved     _from: 'minimatch@0.x.x' },
+326 silly resolved   { name: 'console-browserify',
+326 silly resolved     version: '0.1.6',
+326 silly resolved     description: 'Emulate console for all the browsers',
+326 silly resolved     keywords: [],
+326 silly resolved     author: { name: 'Raynos', email: 'raynos2@gmail.com' },
+326 silly resolved     repository:
+326 silly resolved      { type: 'git',
+326 silly resolved        url: 'git://github.com/Raynos/console-browserify.git' },
+326 silly resolved     main: 'index',
+326 silly resolved     homepage: 'https://github.com/Raynos/console-browserify',
+326 silly resolved     contributors: [ [Object] ],
+326 silly resolved     bugs:
+326 silly resolved      { url: 'https://github.com/Raynos/console-browserify/issues',
+326 silly resolved        email: 'raynos2@gmail.com' },
+326 silly resolved     dependencies: {},
+326 silly resolved     devDependencies:
+326 silly resolved      { tape: '~0.2.2',
+326 silly resolved        browserify: 'https://github.com/raynos/node-browserify/tarball/master',
+326 silly resolved        testem: '~0.2.55',
+326 silly resolved        jsonify: '0.0.0' },
+326 silly resolved     licenses: [ [Object] ],
+326 silly resolved     scripts:
+326 silly resolved      { test: 'node ./test',
+326 silly resolved        build: 'browserify test/index.js -o test/static/bundle.js',
+326 silly resolved        testem: 'testem' },
+326 silly resolved     testling: { files: 'test/index.js', browsers: [Object] },
+326 silly resolved     readme: '# console-browserify\n\n[![build status][1]][2]\n\n[![browser support][3]][4]\n\nEmulate console for all the browsers\n\n## Example\n\n```js\nvar console = require("console-browserify")\n\nconsole.log("hello world!")\n```\n\n## Installation\n\n`npm install console-browserify`\n\n## Contributors\n\n - Raynos\n\n## MIT Licenced\n\n\n\n  [1]: https://secure.travis-ci.org/Raynos/console-browserify.png\n  [2]: http://travis-ci.org/Raynos/console-browserify\n  [3]: http://ci.testling.com/Raynos/console-browserify.png\n  [4]: http://ci.testling.com/Raynos/console-browserify\n',
+326 silly resolved     readmeFilename: 'README.md',
+326 silly resolved     _id: 'console-browserify@0.1.6',
+326 silly resolved     _from: 'console-browserify@0.1.x' } ]
+327 info install shelljs@0.1.4 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+328 info install underscore@1.4.4 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+329 info install cli@0.4.5 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+330 info install minimatch@0.3.0 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+331 info install console-browserify@0.1.6 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+332 info installOne shelljs@0.1.4
+333 info installOne underscore@1.4.4
+334 info installOne cli@0.4.5
+335 info installOne minimatch@0.3.0
+336 info installOne console-browserify@0.1.6
+337 verbose from cache /home/dariusk/.npm/shelljs/0.1.4/package/package.json
+338 verbose from cache /home/dariusk/.npm/underscore/1.4.4/package/package.json
+339 verbose from cache /home/dariusk/.npm/cli/0.4.5/package/package.json
+340 verbose from cache /home/dariusk/.npm/minimatch/0.3.0/package/package.json
+341 verbose from cache /home/dariusk/.npm/console-browserify/0.1.6/package/package.json
+342 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs unbuild
+343 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+344 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore unbuild
+345 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+346 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli unbuild
+347 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+348 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch unbuild
+349 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+350 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify unbuild
+351 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+352 verbose tar unpack /home/dariusk/.npm/shelljs/0.1.4/package.tgz
+353 verbose tar unpack /home/dariusk/.npm/underscore/1.4.4/package.tgz
+354 verbose tar unpack /home/dariusk/.npm/cli/0.4.5/package.tgz
+355 verbose tar unpack /home/dariusk/.npm/minimatch/0.3.0/package.tgz
+356 verbose tar unpack /home/dariusk/.npm/console-browserify/0.1.6/package.tgz
+357 silly lockFile 5bf58bdd-ules-jshint-node-modules-shelljs tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+358 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs /home/dariusk/.npm/5bf58bdd-ules-jshint-node-modules-shelljs.lock
+359 silly lockFile be72a6f5-sk-npm-shelljs-0-1-4-package-tgz tar:///home/dariusk/.npm/shelljs/0.1.4/package.tgz
+360 verbose lock tar:///home/dariusk/.npm/shelljs/0.1.4/package.tgz /home/dariusk/.npm/be72a6f5-sk-npm-shelljs-0-1-4-package-tgz.lock
+361 silly lockFile 1a98283f-s-jshint-node-modules-underscore tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+362 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore /home/dariusk/.npm/1a98283f-s-jshint-node-modules-underscore.lock
+363 silly lockFile 061316b3-npm-underscore-1-4-4-package-tgz tar:///home/dariusk/.npm/underscore/1.4.4/package.tgz
+364 verbose lock tar:///home/dariusk/.npm/underscore/1.4.4/package.tgz /home/dariusk/.npm/061316b3-npm-underscore-1-4-4-package-tgz.lock
+365 silly lockFile a37f13eb--modules-jshint-node-modules-cli tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli
+366 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli /home/dariusk/.npm/a37f13eb--modules-jshint-node-modules-cli.lock
+367 silly lockFile 391e14f3-ariusk-npm-cli-0-4-5-package-tgz tar:///home/dariusk/.npm/cli/0.4.5/package.tgz
+368 verbose lock tar:///home/dariusk/.npm/cli/0.4.5/package.tgz /home/dariusk/.npm/391e14f3-ariusk-npm-cli-0-4-5-package-tgz.lock
+369 silly lockFile 21cb166b-es-jshint-node-modules-minimatch tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+370 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch /home/dariusk/.npm/21cb166b-es-jshint-node-modules-minimatch.lock
+371 silly lockFile 32f757f2--npm-minimatch-0-3-0-package-tgz tar:///home/dariusk/.npm/minimatch/0.3.0/package.tgz
+372 verbose lock tar:///home/dariusk/.npm/minimatch/0.3.0/package.tgz /home/dariusk/.npm/32f757f2--npm-minimatch-0-3-0-package-tgz.lock
+373 silly lockFile 27928384--node-modules-console-browserify tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+374 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify /home/dariusk/.npm/27928384--node-modules-console-browserify.lock
+375 silly lockFile 831a4e58-ole-browserify-0-1-6-package-tgz tar:///home/dariusk/.npm/console-browserify/0.1.6/package.tgz
+376 verbose lock tar:///home/dariusk/.npm/console-browserify/0.1.6/package.tgz /home/dariusk/.npm/831a4e58-ole-browserify-0-1-6-package-tgz.lock
+377 silly gunzTarPerm modes [ '755', '644' ]
+378 silly gunzTarPerm modes [ '755', '644' ]
+379 silly gunzTarPerm modes [ '755', '644' ]
+380 silly gunzTarPerm modes [ '755', '644' ]
+381 silly gunzTarPerm modes [ '755', '644' ]
+382 silly gunzTarPerm extractEntry package.json
+383 silly gunzTarPerm extractEntry package.json
+384 silly gunzTarPerm extractEntry package.json
+385 silly gunzTarPerm extractEntry package.json
+386 silly gunzTarPerm extractEntry package.json
+387 silly gunzTarPerm extractEntry .npmignore
+388 silly gunzTarPerm extractEntry README.md
+389 silly gunzTarPerm extractEntry .npmignore
+390 silly gunzTarPerm extractEntry README.md
+391 silly gunzTarPerm extractEntry README.md
+392 silly gunzTarPerm extractEntry cli.js
+393 silly gunzTarPerm extractEntry .npmignore
+394 silly gunzTarPerm extractEntry README.md
+395 silly gunzTarPerm extractEntry .npmignore
+396 silly gunzTarPerm extractEntry README.md
+397 silly gunzTarPerm extractEntry LICENSE
+398 silly gunzTarPerm extractEntry global.js
+399 silly gunzTarPerm extractEntry LICENSE
+400 silly gunzTarPerm extractEntry underscore-min.js
+401 silly gunzTarPerm extractEntry index.js
+402 silly gunzTarPerm extractEntry examples/cat.js
+403 silly gunzTarPerm extractEntry examples/command.js
+404 silly gunzTarPerm extractEntry LICENSE
+405 silly gunzTarPerm extractEntry minimatch.js
+406 silly gunzTarPerm extractEntry LICENCE
+407 silly gunzTarPerm extractEntry index.js
+408 silly gunzTarPerm extractEntry examples/echo.js
+409 silly gunzTarPerm extractEntry make.js
+410 silly gunzTarPerm extractEntry shell.js
+411 silly gunzTarPerm extractEntry jshint.json
+412 silly gunzTarPerm extractEntry index.js
+413 silly gunzTarPerm extractEntry underscore.js
+414 silly gunzTarPerm extractEntry test/defaults.js
+415 silly gunzTarPerm extractEntry test/extglob-ending-with-state-char.js
+416 silly gunzTarPerm extractEntry test/basic.js
+417 silly gunzTarPerm extractEntry .testem.json
+418 silly gunzTarPerm extractEntry .travis.yml
+419 silly gunzTarPerm extractEntry examples/glob.js
+420 silly gunzTarPerm extractEntry .travis.yml
+421 silly gunzTarPerm extractEntry test/caching.js
+422 silly gunzTarPerm extractEntry bin/shjs
+423 silly gunzTarPerm extractEntry index.html
+424 silly gunzTarPerm extractEntry test/brace-expand.js
+425 silly gunzTarPerm extractEntry test/index.js
+426 silly gunzTarPerm extractEntry test/static/test-adapter.js
+427 silly gunzTarPerm extractEntry .travis.yml
+428 silly gunzTarPerm extractEntry examples/long_desc.js
+429 silly gunzTarPerm extractEntry examples/progress.js
+430 silly gunzTarPerm extractEntry examples/sort.js
+431 silly gunzTarPerm extractEntry scripts/docs.js
+432 silly gunzTarPerm extractEntry scripts/run-tests.js
+433 silly gunzTarPerm extractEntry examples/spinner.js
+434 silly gunzTarPerm extractEntry CONTRIBUTING.md
+435 silly gunzTarPerm extractEntry CNAME
+436 silly gunzTarPerm extractEntry favicon.ico
+437 silly gunzTarPerm extractEntry test/static/index.html
+438 silly gunzTarPerm extractEntry .documentup.json
+439 silly gunzTarPerm extractEntry examples/static.js
+440 silly gunzTarPerm extractEntry test/.npmignore
+441 silly gunzTarPerm extractEntry examples/static.coffee
+442 silly gunzTarPerm extractEntry test/exec.js
+443 silly gunzTarPerm extractEntry test/find.js
+444 silly gunzTarPerm extractEntry test/grep.js
+445 silly gunzTarPerm extractEntry test/env.js
+446 silly gunzTarPerm extractEntry test/cat.js
+447 silly gunzTarPerm extractEntry test/mkdir.js
+448 silly gunzTarPerm extractEntry test/mv.js
+449 silly gunzTarPerm extractEntry test/popd.js
+450 silly gunzTarPerm extractEntry test/pushd.js
+451 silly gunzTarPerm extractEntry test/echo.js
+452 silly gunzTarPerm extractEntry test/pwd.js
+453 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+454 silly gunzTarPerm extractEntry test/dirs.js
+455 silly gunzTarPerm extractEntry test/to.js
+456 silly gunzTarPerm extractEntry test/cp.js
+457 silly lockFile 27928384--node-modules-console-browserify tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+458 silly lockFile 27928384--node-modules-console-browserify tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+459 silly lockFile 831a4e58-ole-browserify-0-1-6-package-tgz tar:///home/dariusk/.npm/console-browserify/0.1.6/package.tgz
+460 silly lockFile 831a4e58-ole-browserify-0-1-6-package-tgz tar:///home/dariusk/.npm/console-browserify/0.1.6/package.tgz
+461 silly gunzTarPerm extractEntry test/rm.js
+462 silly gunzTarPerm extractEntry test/config.js
+463 info preinstall console-browserify@0.1.6
+464 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+465 silly gunzTarPerm extractEntry test/sed.js
+466 silly gunzTarPerm extractEntry test/chmod.js
+467 silly gunzTarPerm extractEntry test/tempdir.js
+468 silly gunzTarPerm extractEntry test/cd.js
+469 silly gunzTarPerm extractEntry test/test.js
+470 silly gunzTarPerm extractEntry test/ls.js
+471 silly gunzTarPerm extractEntry test/which.js
+472 silly gunzTarPerm extractEntry test/make.js
+473 silly gunzTarPerm extractEntry test/resources/file1.js
+474 silly gunzTarPerm extractEntry test/resources/file2.js
+475 silly gunzTarPerm extractEntry test/resources/file2
+476 silly gunzTarPerm extractEntry test/resources/external/node_script.js
+477 silly gunzTarPerm extractEntry test/resources/file1
+478 silly gunzTarPerm extractEntry test/resources/a.txt
+479 silly gunzTarPerm extractEntry test/resources/file1.txt
+480 silly gunzTarPerm extractEntry test/resources/chmod/a/b/c/.npmignore
+481 silly gunzTarPerm extractEntry test/resources/chmod/b/a/b/.npmignore
+482 silly gunzTarPerm extractEntry test/resources/chmod/c/a/b/.npmignore
+483 silly gunzTarPerm extractEntry test/resources/chmod/file1
+484 silly gunzTarPerm extractEntry test/resources/cp/a
+485 silly gunzTarPerm extractEntry test/resources/cp/b
+486 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+487 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+488 silly gunzTarPerm extractEntry test/resources/cp/dir_a/z
+489 silly gunzTarPerm extractEntry test/resources/cp/dir_b/dir_b_a/dir_b_a_a/z
+490 silly lockFile 21cb166b-es-jshint-node-modules-minimatch tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+491 silly lockFile 21cb166b-es-jshint-node-modules-minimatch tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+492 silly lockFile 32f757f2--npm-minimatch-0-3-0-package-tgz tar:///home/dariusk/.npm/minimatch/0.3.0/package.tgz
+493 silly lockFile 32f757f2--npm-minimatch-0-3-0-package-tgz tar:///home/dariusk/.npm/minimatch/0.3.0/package.tgz
+494 silly lockFile a37f13eb--modules-jshint-node-modules-cli tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli
+495 silly lockFile a37f13eb--modules-jshint-node-modules-cli tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli
+496 silly lockFile 391e14f3-ariusk-npm-cli-0-4-5-package-tgz tar:///home/dariusk/.npm/cli/0.4.5/package.tgz
+497 silly lockFile 391e14f3-ariusk-npm-cli-0-4-5-package-tgz tar:///home/dariusk/.npm/cli/0.4.5/package.tgz
+498 silly gunzTarPerm extractEntry test/resources/file2.txt
+499 silly gunzTarPerm extractEntry test/resources/find/.hidden
+500 info preinstall minimatch@0.3.0
+501 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+502 info preinstall cli@0.4.5
+503 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+504 silly gunzTarPerm extractEntry test/resources/find/a
+505 silly gunzTarPerm extractEntry test/resources/find/b
+506 silly gunzTarPerm extractEntry test/resources/find/dir1/a_dir1
+507 silly gunzTarPerm extractEntry test/resources/find/dir1/dir11/a_dir11
+508 verbose readDependencies using package.json deps
+509 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+510 verbose readDependencies using package.json deps
+511 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+512 verbose readDependencies using package.json deps
+513 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+514 silly gunzTarPerm extractEntry test/resources/find/dir2/a_dir1
+515 silly gunzTarPerm extractEntry test/resources/issue44/main.js
+516 verbose readDependencies using package.json deps
+517 silly resolved []
+518 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+519 info build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+520 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+521 verbose readDependencies using package.json deps
+522 verbose readDependencies using package.json deps
+523 silly gunzTarPerm extractEntry test/resources/ls/file1.js
+524 silly gunzTarPerm extractEntry test/resources/ls/file2.js
+525 silly gunzTarPerm extractEntry test/resources/ls/.hidden_dir/nada
+526 silly gunzTarPerm extractEntry test/resources/ls/.hidden_file
+527 silly gunzTarPerm extractEntry test/resources/ls/a_dir/.hidden_dir/nada
+528 silly gunzTarPerm extractEntry test/resources/ls/a_dir/b_dir/z
+529 silly gunzTarPerm extractEntry test/resources/ls/a_dir/nada
+530 silly gunzTarPerm extractEntry test/resources/ls/file1
+531 silly gunzTarPerm extractEntry test/resources/ls/file2
+532 silly gunzTarPerm extractEntry test/resources/ls/filename(with)[chars$]^that.must+be-escaped
+533 silly gunzTarPerm extractEntry test/resources/pushd/a/dummy
+534 verbose linkStuff [ false,
+534 verbose linkStuff   false,
+534 verbose linkStuff   false,
+534 verbose linkStuff   '/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules' ]
+535 info linkStuff console-browserify@0.1.6
+536 verbose from cache /home/dariusk/Projects/mapsaic/package.json
+537 verbose cache add [ 'lru-cache@2', null ]
+538 verbose cache add name=undefined spec="lru-cache@2" args=["lru-cache@2",null]
+539 verbose parsed url { pathname: 'lru-cache@2',
+539 verbose parsed url   path: 'lru-cache@2',
+539 verbose parsed url   href: 'lru-cache@2' }
+540 verbose cache add name="lru-cache" spec="2" args=["lru-cache","2"]
+541 verbose parsed url { pathname: '2', path: '2', href: '2' }
+542 verbose addNamed [ 'lru-cache', '2' ]
+543 verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+544 silly lockFile b4f9d1ff-lru-cache-2 lru-cache@2
+545 verbose lock lru-cache@2 /home/dariusk/.npm/b4f9d1ff-lru-cache-2.lock
+546 verbose cache add [ 'sigmund@~1.0.0', null ]
+547 verbose cache add name=undefined spec="sigmund@~1.0.0" args=["sigmund@~1.0.0",null]
+548 verbose parsed url { pathname: 'sigmund@~1.0.0',
+548 verbose parsed url   path: 'sigmund@~1.0.0',
+548 verbose parsed url   href: 'sigmund@~1.0.0' }
+549 verbose cache add name="sigmund" spec="~1.0.0" args=["sigmund","~1.0.0"]
+550 verbose parsed url { pathname: '~1.0.0', path: '~1.0.0', href: '~1.0.0' }
+551 verbose addNamed [ 'sigmund', '~1.0.0' ]
+552 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+553 silly lockFile 584a4a05-sigmund-1-0-0 sigmund@~1.0.0
+554 verbose lock sigmund@~1.0.0 /home/dariusk/.npm/584a4a05-sigmund-1-0-0.lock
+555 verbose cache add [ 'glob@>= 3.1.4', null ]
+556 verbose cache add name=undefined spec="glob@>= 3.1.4" args=["glob@>= 3.1.4",null]
+557 verbose parsed url { pathname: 'glob@%3E=%203.1.4',
+557 verbose parsed url   path: 'glob@%3E=%203.1.4',
+557 verbose parsed url   href: 'glob@%3E=%203.1.4' }
+558 verbose cache add name="glob" spec=">= 3.1.4" args=["glob",">= 3.1.4"]
+559 verbose parsed url { pathname: '%3E=%203.1.4',
+559 verbose parsed url   path: '%3E=%203.1.4',
+559 verbose parsed url   href: '%3E=%203.1.4' }
+560 verbose addNamed [ 'glob', '>= 3.1.4' ]
+561 verbose addNamed [ null, '>=3.1.4' ]
+562 silly lockFile 2f09716d-glob-3-1-4 glob@>= 3.1.4
+563 verbose lock glob@>= 3.1.4 /home/dariusk/.npm/2f09716d-glob-3-1-4.lock
+564 verbose linkBins console-browserify@0.1.6
+565 verbose linkMans console-browserify@0.1.6
+566 verbose rebuildBundles console-browserify@0.1.6
+567 silly addNameRange { name: 'lru-cache', range: '>=2.0.0- <3.0.0-', hasData: false }
+568 silly addNameRange { name: 'sigmund', range: '>=1.0.0- <1.1.0-', hasData: false }
+569 silly addNameRange { name: 'glob', range: '>=3.1.4', hasData: false }
+570 info install console-browserify@0.1.6
+571 info postinstall console-browserify@0.1.6
+572 verbose url raw lru-cache
+573 verbose url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
+574 verbose url resolved https://registry.npmjs.org/lru-cache
+575 info trying registry request attempt 1 at 08:02:50
+576 verbose etag "6EAH4E2XKATH9G2WW7G1L4L00"
+577 http GET https://registry.npmjs.org/lru-cache
+578 verbose url raw sigmund
+579 verbose url resolving [ 'https://registry.npmjs.org/', './sigmund' ]
+580 verbose url resolved https://registry.npmjs.org/sigmund
+581 info trying registry request attempt 1 at 08:02:50
+582 verbose etag "83Z00BYZMZK19U869TTWSB9J1"
+583 http GET https://registry.npmjs.org/sigmund
+584 verbose url raw glob
+585 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+586 verbose url resolved https://registry.npmjs.org/glob
+587 info trying registry request attempt 1 at 08:02:50
+588 verbose etag "9HC5ZWQ2WYVJ70CJ3QY7V48YN"
+589 http GET https://registry.npmjs.org/glob
+590 silly gunzTarPerm extractEntry test/resources/pushd/b/c/dummy
+591 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+592 silly lockFile 1a98283f-s-jshint-node-modules-underscore tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+593 silly lockFile 1a98283f-s-jshint-node-modules-underscore tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+594 silly lockFile 061316b3-npm-underscore-1-4-4-package-tgz tar:///home/dariusk/.npm/underscore/1.4.4/package.tgz
+595 silly lockFile 061316b3-npm-underscore-1-4-4-package-tgz tar:///home/dariusk/.npm/underscore/1.4.4/package.tgz
+596 info preinstall underscore@1.4.4
+597 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+598 verbose readDependencies using package.json deps
+599 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+600 verbose readDependencies using package.json deps
+601 silly resolved []
+602 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+603 info build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+604 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+605 verbose linkStuff [ false,
+605 verbose linkStuff   false,
+605 verbose linkStuff   false,
+605 verbose linkStuff   '/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules' ]
+606 info linkStuff underscore@1.4.4
+607 verbose from cache /home/dariusk/Projects/mapsaic/package.json
+608 verbose linkBins underscore@1.4.4
+609 verbose linkMans underscore@1.4.4
+610 verbose rebuildBundles underscore@1.4.4
+611 info install underscore@1.4.4
+612 info postinstall underscore@1.4.4
+613 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+614 silly lockFile 5bf58bdd-ules-jshint-node-modules-shelljs tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+615 silly lockFile 5bf58bdd-ules-jshint-node-modules-shelljs tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+616 silly lockFile be72a6f5-sk-npm-shelljs-0-1-4-package-tgz tar:///home/dariusk/.npm/shelljs/0.1.4/package.tgz
+617 silly lockFile be72a6f5-sk-npm-shelljs-0-1-4-package-tgz tar:///home/dariusk/.npm/shelljs/0.1.4/package.tgz
+618 info preinstall shelljs@0.1.4
+619 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+620 verbose readDependencies using package.json deps
+621 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+622 verbose readDependencies using package.json deps
+623 silly resolved []
+624 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+625 info build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+626 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+627 verbose linkStuff [ false,
+627 verbose linkStuff   false,
+627 verbose linkStuff   false,
+627 verbose linkStuff   '/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules' ]
+628 info linkStuff shelljs@0.1.4
+629 verbose from cache /home/dariusk/Projects/mapsaic/package.json
+630 verbose linkBins shelljs@0.1.4
+631 verbose link bins [ { shjs: './bin/shjs' },
+631 verbose link bins   '/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin',
+631 verbose link bins   false ]
+632 verbose linkMans shelljs@0.1.4
+633 verbose rebuildBundles shelljs@0.1.4
+634 info install shelljs@0.1.4
+635 info postinstall shelljs@0.1.4
+636 http 304 https://registry.npmjs.org/lru-cache
+637 silly registry.get cb [ 304,
+637 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+637 silly registry.get     server: 'Apache',
+637 silly registry.get     via: '1.1 varnish',
+637 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:51 GMT',
+637 silly registry.get     'cache-control': 'max-age=1',
+637 silly registry.get     etag: '"6EAH4E2XKATH9G2WW7G1L4L00"',
+637 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+637 silly registry.get     'x-cache': 'HIT',
+637 silly registry.get     'x-cache-hits': '1',
+637 silly registry.get     'x-timer': 'S1402142570.956415,VS0,VE71',
+637 silly registry.get     vary: 'Accept',
+637 silly registry.get     'content-length': '0',
+637 silly registry.get     'keep-alive': 'timeout=10, max=50',
+637 silly registry.get     connection: 'Keep-Alive' } ]
+638 verbose etag lru-cache from cache
+639 http 304 https://registry.npmjs.org/glob
+640 silly registry.get cb [ 304,
+640 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+640 silly registry.get     server: 'Apache',
+640 silly registry.get     via: '1.1 varnish',
+640 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:51 GMT',
+640 silly registry.get     'cache-control': 'max-age=1',
+640 silly registry.get     etag: '"9HC5ZWQ2WYVJ70CJ3QY7V48YN"',
+640 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+640 silly registry.get     'x-cache': 'HIT',
+640 silly registry.get     'x-cache-hits': '1',
+640 silly registry.get     'x-timer': 'S1402142570.963546,VS0,VE69',
+640 silly registry.get     vary: 'Accept',
+640 silly registry.get     'content-length': '0',
+640 silly registry.get     'keep-alive': 'timeout=10, max=50',
+640 silly registry.get     connection: 'Keep-Alive' } ]
+641 verbose etag glob from cache
+642 http 304 https://registry.npmjs.org/sigmund
+643 silly registry.get cb [ 304,
+643 silly registry.get   { date: 'Sat, 07 Jun 2014 12:02:50 GMT',
+643 silly registry.get     server: 'Apache',
+643 silly registry.get     via: '1.1 varnish',
+643 silly registry.get     'last-modified': 'Sat, 07 Jun 2014 12:02:51 GMT',
+643 silly registry.get     'cache-control': 'max-age=1',
+643 silly registry.get     etag: '"83Z00BYZMZK19U869TTWSB9J1"',
+643 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+643 silly registry.get     'x-cache': 'HIT',
+643 silly registry.get     'x-cache-hits': '1',
+643 silly registry.get     'x-timer': 'S1402142570.958647,VS0,VE69',
+643 silly registry.get     vary: 'Accept',
+643 silly registry.get     'content-length': '0',
+643 silly registry.get     'keep-alive': 'timeout=10, max=50',
+643 silly registry.get     connection: 'Keep-Alive' } ]
+644 verbose etag sigmund from cache
+645 silly addNameRange number 2 { name: 'lru-cache', range: '>=2.0.0- <3.0.0-', hasData: true }
+646 silly addNameRange versions [ 'lru-cache',
+646 silly addNameRange   [ '1.0.1',
+646 silly addNameRange     '1.0.2',
+646 silly addNameRange     '1.0.3',
+646 silly addNameRange     '1.0.4',
+646 silly addNameRange     '1.0.5',
+646 silly addNameRange     '1.0.6',
+646 silly addNameRange     '1.1.0',
+646 silly addNameRange     '1.1.1',
+646 silly addNameRange     '2.0.0',
+646 silly addNameRange     '2.0.1',
+646 silly addNameRange     '2.0.2',
+646 silly addNameRange     '2.0.3',
+646 silly addNameRange     '2.0.4',
+646 silly addNameRange     '2.1.0',
+646 silly addNameRange     '2.2.0',
+646 silly addNameRange     '2.2.1',
+646 silly addNameRange     '2.2.2',
+646 silly addNameRange     '2.2.4',
+646 silly addNameRange     '2.3.0',
+646 silly addNameRange     '2.3.1',
+646 silly addNameRange     '2.5.0' ] ]
+647 verbose addNamed [ 'lru-cache', '2.5.0' ]
+648 verbose addNamed [ '2.5.0', '2.5.0' ]
+649 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+650 verbose lock lru-cache@2.5.0 /home/dariusk/.npm/30aa630e-lru-cache-2-5-0.lock
+651 silly addNameRange number 2 { name: 'glob', range: '>=3.1.4', hasData: true }
+652 silly addNameRange versions [ 'glob',
+652 silly addNameRange   [ '1.1.0',
+652 silly addNameRange     '2.0.9',
+652 silly addNameRange     '2.0.8',
+652 silly addNameRange     '2.0.7',
+652 silly addNameRange     '2.1.0',
+652 silly addNameRange     '3.0.0',
+652 silly addNameRange     '3.0.1',
+652 silly addNameRange     '3.1.0',
+652 silly addNameRange     '3.1.1',
+652 silly addNameRange     '3.1.2',
+652 silly addNameRange     '3.1.3',
+652 silly addNameRange     '3.1.4',
+652 silly addNameRange     '3.1.5',
+652 silly addNameRange     '3.1.6',
+652 silly addNameRange     '3.1.7',
+652 silly addNameRange     '3.1.9',
+652 silly addNameRange     '3.1.10',
+652 silly addNameRange     '3.1.11',
+652 silly addNameRange     '3.1.12',
+652 silly addNameRange     '3.1.13',
+652 silly addNameRange     '3.1.14',
+652 silly addNameRange     '3.1.15',
+652 silly addNameRange     '3.1.16',
+652 silly addNameRange     '3.1.17',
+652 silly addNameRange     '3.1.18',
+652 silly addNameRange     '3.1.19',
+652 silly addNameRange     '3.1.20',
+652 silly addNameRange     '3.1.21',
+652 silly addNameRange     '3.2.0',
+652 silly addNameRange     '3.2.1',
+652 silly addNameRange     '3.2.3',
+652 silly addNameRange     '3.2.4',
+652 silly addNameRange     '3.2.5',
+652 silly addNameRange     '3.2.6',
+652 silly addNameRange     '3.2.7',
+652 silly addNameRange     '3.2.8',
+652 silly addNameRange     '3.2.9',
+652 silly addNameRange     '3.2.10',
+652 silly addNameRange     '3.2.11',
+652 silly addNameRange     '4.0.0',
+652 silly addNameRange     '4.0.1',
+652 silly addNameRange     '4.0.2' ] ]
+653 verbose addNamed [ 'glob', '4.0.2' ]
+654 verbose addNamed [ '4.0.2', '4.0.2' ]
+655 silly lockFile f143e2e5-glob-4-0-2 glob@4.0.2
+656 verbose lock glob@4.0.2 /home/dariusk/.npm/f143e2e5-glob-4-0-2.lock
+657 verbose read json /home/dariusk/.npm/lru-cache/2.5.0/package/package.json
+658 verbose read json /home/dariusk/.npm/glob/4.0.2/package/package.json
+659 silly addNameRange number 2 { name: 'sigmund', range: '>=1.0.0- <1.1.0-', hasData: true }
+660 silly addNameRange versions [ 'sigmund', [ '1.0.0' ] ]
+661 verbose addNamed [ 'sigmund', '1.0.0' ]
+662 verbose addNamed [ '1.0.0', '1.0.0' ]
+663 silly lockFile 7b2d1244-sigmund-1-0-0 sigmund@1.0.0
+664 verbose lock sigmund@1.0.0 /home/dariusk/.npm/7b2d1244-sigmund-1-0-0.lock
+665 verbose read json /home/dariusk/.npm/sigmund/1.0.0/package/package.json
+666 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+667 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+668 silly lockFile f143e2e5-glob-4-0-2 glob@4.0.2
+669 silly lockFile f143e2e5-glob-4-0-2 glob@4.0.2
+670 silly lockFile b4f9d1ff-lru-cache-2 lru-cache@2
+671 silly lockFile b4f9d1ff-lru-cache-2 lru-cache@2
+672 silly lockFile 2f09716d-glob-3-1-4 glob@>= 3.1.4
+673 silly lockFile 2f09716d-glob-3-1-4 glob@>= 3.1.4
+674 silly resolved [ { author:
+674 silly resolved      { name: 'Isaac Z. Schlueter',
+674 silly resolved        email: 'i@izs.me',
+674 silly resolved        url: 'http://blog.izs.me/' },
+674 silly resolved     name: 'glob',
+674 silly resolved     description: 'a little globber',
+674 silly resolved     version: '4.0.2',
+674 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-glob.git' },
+674 silly resolved     main: 'glob.js',
+674 silly resolved     engines: { node: '*' },
+674 silly resolved     dependencies: { inherits: '2', minimatch: '^0.3.0', once: '^1.3.0' },
+674 silly resolved     devDependencies: { tap: '~0.4.0', mkdirp: '0', rimraf: '1' },
+674 silly resolved     scripts:
+674 silly resolved      { test: 'tap test/*.js',
+674 silly resolved        'test-regen': 'TEST_REGEN=1 node test/00-setup.js' },
+674 silly resolved     license: 'BSD',
+674 silly resolved     readme: '# Glob\n\nMatch files using the patterns the shell uses, like stars and stuff.\n\nThis is a glob implementation in JavaScript.  It uses the `minimatch`\nlibrary to do its matching.\n\n## Attention: node-glob users!\n\nThe API has changed dramatically between 2.x and 3.x. This library is\nnow 100% JavaScript, and the integer flags have been replaced with an\noptions object.\n\nAlso, there\'s an event emitter class, proper tests, and all the other\nthings you\'ve come to expect from node modules.\n\nAnd best of all, no compilation!\n\n## Usage\n\n```javascript\nvar glob = require("glob")\n\n// options is optional\nglob("**/*.js", options, function (er, files) {\n  // files is an array of filenames.\n  // If the `nonull` option is set, and nothing\n  // was found, then files is ["**/*.js"]\n  // er is an error object or null.\n})\n```\n\n## Features\n\nPlease see the [minimatch\ndocumentation](https://github.com/isaacs/minimatch) for more details.\n\nSupports these glob features:\n\n* Brace Expansion\n* Extended glob matching\n* "Globstar" `**` matching\n\nSee:\n\n* `man sh`\n* `man bash`\n* `man 3 fnmatch`\n* `man 5 gitignore`\n* [minimatch documentation](https://github.com/isaacs/minimatch)\n\n## glob(pattern, [options], cb)\n\n* `pattern` {String} Pattern to be matched\n* `options` {Object}\n* `cb` {Function}\n  * `err` {Error | null}\n  * `matches` {Array<String>} filenames found matching the pattern\n\nPerform an asynchronous glob search.\n\n## glob.sync(pattern, [options])\n\n* `pattern` {String} Pattern to be matched\n* `options` {Object}\n* return: {Array<String>} filenames found matching the pattern\n\nPerform a synchronous glob search.\n\n## Class: glob.Glob\n\nCreate a Glob object by instanting the `glob.Glob` class.\n\n```javascript\nvar Glob = require("glob").Glob\nvar mg = new Glob(pattern, options, cb)\n```\n\nIt\'s an EventEmitter, and starts walking the filesystem to find matches\nimmediately.\n\n### new glob.Glob(pattern, [options], [cb])\n\n* `pattern` {String} pattern to search for\n* `options` {Object}\n* `cb` {Function} Called when an error occurs, or matches are found\n  * `err` {Error | null}\n  * `matches` {Array<String>} filenames found matching the pattern\n\nNote that if the `sync` flag is set in the options, then matches will\nbe immediately available on the `g.found` member.\n\n### Properties\n\n* `minimatch` The minimatch object that the glob uses.\n* `options` The options object passed in.\n* `error` The error encountered.  When an error is encountered, the\n  glob object is in an undefined state, and should be discarded.\n* `aborted` Boolean which is set to true when calling `abort()`.  There\n  is no way at this time to continue a glob search after aborting, but\n  you can re-use the statCache to avoid having to duplicate syscalls.\n* `statCache` Collection of all the stat results the glob search\n  performed.\n* `cache` Convenience object.  Each field has the following possible\n  values:\n  * `false` - Path does not exist\n  * `true` - Path exists\n  * `1` - Path exists, and is not a directory\n  * `2` - Path exists, and is a directory\n  * `[file, entries, ...]` - Path exists, is a directory, and the\n    array value is the results of `fs.readdir`\n\n### Events\n\n* `end` When the matching is finished, this is emitted with all the\n  matches found.  If the `nonull` option is set, and no match was found,\n  then the `matches` list contains the original pattern.  The matches\n  are sorted, unless the `nosort` flag is set.\n* `match` Every time a match is found, this is emitted with the matched.\n* `error` Emitted when an unexpected error is encountered, or whenever\n  any fs error occurs if `options.strict` is set.\n* `abort` When `abort()` is called, this event is raised.\n\n### Methods\n\n* `abort` Stop the search.\n\n### Options\n\nAll the options that can be passed to Minimatch can also be passed to\nGlob to change pattern matching behavior.  Also, some have been added,\nor have glob-specific ramifications.\n\nAll options are false by default, unless otherwise noted.\n\nAll options are added to the glob object, as well.\n\n* `cwd` The current working directory in which to search.  Defaults\n  to `process.cwd()`.\n* `root` The place where patterns starting with `/` will be mounted\n  onto.  Defaults to `path.resolve(options.cwd, "/")` (`/` on Unix\n  systems, and `C:\\` or some such on Windows.)\n* `dot` Include `.dot` files in normal matches and `globstar` matches.\n  Note that an explicit dot in a portion of the pattern will always\n  match dot files.\n* `nomount` By default, a pattern starting with a forward-slash will be\n  "mounted" onto the root setting, so that a valid filesystem path is\n  returned.  Set this flag to disable that behavior.\n* `mark` Add a `/` character to directory matches.  Note that this\n  requires additional stat calls.\n* `nosort` Don\'t sort the results.\n* `stat` Set to true to stat *all* results.  This reduces performance\n  somewhat, and is completely unnecessary, unless `readdir` is presumed\n  to be an untrustworthy indicator of file existence.  It will cause\n  ELOOP to be triggered one level sooner in the case of cyclical\n  symbolic links.\n* `silent` When an unusual error is encountered\n  when attempting to read a directory, a warning will be printed to\n  stderr.  Set the `silent` option to true to suppress these warnings.\n* `strict` When an unusual error is encountered\n  when attempting to read a directory, the process will just continue on\n  in search of other matches.  Set the `strict` option to raise an error\n  in these cases.\n* `cache` See `cache` property above.  Pass in a previously generated\n  cache object to save some fs calls.\n* `statCache` A cache of results of filesystem information, to prevent\n  unnecessary stat calls.  While it should not normally be necessary to\n  set this, you may pass the statCache from one glob() call to the\n  options object of another, if you know that the filesystem will not\n  change between calls.  (See "Race Conditions" below.)\n* `sync` Perform a synchronous glob search.\n* `nounique` In some cases, brace-expanded patterns can result in the\n  same file showing up multiple times in the result set.  By default,\n  this implementation prevents duplicates in the result set.\n  Set this flag to disable that behavior.\n* `nonull` Set to never return an empty set, instead returning a set\n  containing the pattern itself.  This is the default in glob(3).\n* `nocase` Perform a case-insensitive match.  Note that case-insensitive\n  filesystems will sometimes result in glob returning results that are\n  case-insensitively matched anyway, since readdir and stat will not\n  raise an error.\n* `debug` Set to enable debug logging in minimatch and glob.\n* `globDebug` Set to enable debug logging in glob, but not minimatch.\n\n## Comparisons to other fnmatch/glob implementations\n\nWhile strict compliance with the existing standards is a worthwhile\ngoal, some discrepancies exist between node-glob and other\nimplementations, and are intentional.\n\nIf the pattern starts with a `!` character, then it is negated.  Set the\n`nonegate` flag to suppress this behavior, and treat leading `!`\ncharacters normally.  This is perhaps relevant if you wish to start the\npattern with a negative extglob pattern like `!(a|B)`.  Multiple `!`\ncharacters at the start of a pattern will negate the pattern multiple\ntimes.\n\nIf a pattern starts with `#`, then it is treated as a comment, and\nwill not match anything.  Use `\\#` to match a literal `#` at the\nstart of a line, or set the `nocomment` flag to suppress this behavior.\n\nThe double-star character `**` is supported by default, unless the\n`noglobstar` flag is set.  This is supported in the manner of bsdglob\nand bash 4.1, where `**` only has special significance if it is the only\nthing in a path part.  That is, `a/**/b` will match `a/x/y/b`, but\n`a/**b` will not.\n\nIf an escaped pattern has no matches, and the `nonull` flag is set,\nthen glob returns the pattern as-provided, rather than\ninterpreting the character escapes.  For example,\n`glob.match([], "\\\\*a\\\\?")` will return `"\\\\*a\\\\?"` rather than\n`"*a?"`.  This is akin to setting the `nullglob` option in bash, except\nthat it does not resolve escaped pattern characters.\n\nIf brace expansion is not disabled, then it is performed before any\nother interpretation of the glob pattern.  Thus, a pattern like\n`+(a|{b),c)}`, which would not be valid in bash or zsh, is expanded\n**first** into the set of `+(a|b)` and `+(a|c)`, and those patterns are\nchecked for validity.  Since those two are valid, matching proceeds.\n\n## Windows\n\n**Please only use forward-slashes in glob expressions.**\n\nThough windows uses either `/` or `\\` as its path separator, only `/`\ncharacters are used by this glob implementation.  You must use\nforward-slashes **only** in glob expressions.  Back-slashes will always\nbe interpreted as escape characters, not path separators.\n\nResults from absolute patterns such as `/foo/*` are mounted onto the\nroot setting using `path.join`.  On windows, this will by default result\nin `/foo/*` matching `C:\\foo\\bar.txt`.\n\n## Race Conditions\n\nGlob searching, by its very nature, is susceptible to race conditions,\nsince it relies on directory walking and such.\n\nAs a result, it is possible that a file that exists when glob looks for\nit may have been deleted or modified by the time it returns the result.\n\nAs part of its internal implementation, this program caches all stat\nand readdir calls that it makes, in order to cut down on system\noverhead.  However, this also makes it even more susceptible to races,\nespecially if the cache or statCache objects are reused between glob\ncalls.\n\nUsers are thus advised not to use a glob result as a guarantee of\nfilesystem state in the face of rapid changes.  For the vast majority\nof operations, this is never a problem.\n',
+674 silly resolved     readmeFilename: 'README.md',
+674 silly resolved     bugs: { url: 'https://github.com/isaacs/node-glob/issues' },
+674 silly resolved     _id: 'glob@4.0.2',
+674 silly resolved     _from: 'glob@>= 3.1.4' } ]
+675 info install glob@4.0.2 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli
+676 info installOne glob@4.0.2
+677 silly lockFile 7b2d1244-sigmund-1-0-0 sigmund@1.0.0
+678 silly lockFile 7b2d1244-sigmund-1-0-0 sigmund@1.0.0
+679 verbose from cache /home/dariusk/.npm/glob/4.0.2/package/package.json
+680 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob unbuild
+681 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/package.json
+682 silly lockFile 584a4a05-sigmund-1-0-0 sigmund@~1.0.0
+683 silly lockFile 584a4a05-sigmund-1-0-0 sigmund@~1.0.0
+684 silly resolved [ { name: 'lru-cache',
+684 silly resolved     description: 'A cache object that deletes the least-recently-used items.',
+684 silly resolved     version: '2.5.0',
+684 silly resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+684 silly resolved     scripts: { test: 'tap test --gc' },
+684 silly resolved     main: 'lib/lru-cache.js',
+684 silly resolved     repository:
+684 silly resolved      { type: 'git',
+684 silly resolved        url: 'git://github.com/isaacs/node-lru-cache.git' },
+684 silly resolved     devDependencies: { tap: '', weak: '' },
+684 silly resolved     license:
+684 silly resolved      { type: 'MIT',
+684 silly resolved        url: 'http://github.com/isaacs/node-lru-cache/raw/master/LICENSE' },
+684 silly resolved     readme: '# lru cache\n\nA cache object that deletes the least-recently-used items.\n\n## Usage:\n\n```javascript\nvar LRU = require("lru-cache")\n  , options = { max: 500\n              , length: function (n) { return n * 2 }\n              , dispose: function (key, n) { n.close() }\n              , maxAge: 1000 * 60 * 60 }\n  , cache = LRU(options)\n  , otherCache = LRU(50) // sets just the max size\n\ncache.set("key", "value")\ncache.get("key") // "value"\n\ncache.reset()    // empty the cache\n```\n\nIf you put more stuff in it, then items will fall out.\n\nIf you try to put an oversized thing in it, then it\'ll fall out right\naway.\n\n## Options\n\n* `max` The maximum size of the cache, checked by applying the length\n  function to all values in the cache.  Not setting this is kind of\n  silly, since that\'s the whole purpose of this lib, but it defaults\n  to `Infinity`.\n* `maxAge` Maximum age in ms.  Items are not pro-actively pruned out\n  as they age, but if you try to get an item that is too old, it\'ll\n  drop it and return undefined instead of giving it to you.\n* `length` Function that is used to calculate the length of stored\n  items.  If you\'re storing strings or buffers, then you probably want\n  to do something like `function(n){return n.length}`.  The default is\n  `function(n){return 1}`, which is fine if you want to store `n`\n  like-sized things.\n* `dispose` Function that is called on items when they are dropped\n  from the cache.  This can be handy if you want to close file\n  descriptors or do other cleanup tasks when items are no longer\n  accessible.  Called with `key, value`.  It\'s called *before*\n  actually removing the item from the internal cache, so if you want\n  to immediately put it back in, you\'ll have to do that in a\n  `nextTick` or `setTimeout` callback or it won\'t do anything.\n* `stale` By default, if you set a `maxAge`, it\'ll only actually pull\n  stale items out of the cache when you `get(key)`.  (That is, it\'s\n  not pre-emptively doing a `setTimeout` or anything.)  If you set\n  `stale:true`, it\'ll return the stale value before deleting it.  If\n  you don\'t set this, then it\'ll return `undefined` when you try to\n  get a stale entry, as if it had already been deleted.\n\n## API\n\n* `set(key, value)`\n* `get(key) => value`\n\n    Both of these will update the "recently used"-ness of the key.\n    They do what you think.\n\n* `peek(key)`\n\n    Returns the key value (or `undefined` if not found) without\n    updating the "recently used"-ness of the key.\n\n    (If you find yourself using this a lot, you *might* be using the\n    wrong sort of data structure, but there are some use cases where\n    it\'s handy.)\n\n* `del(key)`\n\n    Deletes a key out of the cache.\n\n* `reset()`\n\n    Clear the cache entirely, throwing away all values.\n\n* `has(key)`\n\n    Check if a key is in the cache, without updating the recent-ness\n    or deleting it for being stale.\n\n* `forEach(function(value,key,cache), [thisp])`\n\n    Just like `Array.prototype.forEach`.  Iterates over all the keys\n    in the cache, in order of recent-ness.  (Ie, more recently used\n    items are iterated over first.)\n\n* `keys()`\n\n    Return an array of the keys in the cache.\n\n* `values()`\n\n    Return an array of the values in the cache.\n',
+684 silly resolved     readmeFilename: 'README.md',
+684 silly resolved     bugs: { url: 'https://github.com/isaacs/node-lru-cache/issues' },
+684 silly resolved     _id: 'lru-cache@2.5.0',
+684 silly resolved     _from: 'lru-cache@2' },
+684 silly resolved   { name: 'sigmund',
+684 silly resolved     version: '1.0.0',
+684 silly resolved     description: 'Quick and dirty signatures for Objects.',
+684 silly resolved     main: 'sigmund.js',
+684 silly resolved     directories: { test: 'test' },
+684 silly resolved     dependencies: {},
+684 silly resolved     devDependencies: { tap: '~0.3.0' },
+684 silly resolved     scripts: { test: 'tap test/*.js', bench: 'node bench.js' },
+684 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/sigmund' },
+684 silly resolved     keywords: [ 'object', 'signature', 'key', 'data', 'psychoanalysis' ],
+684 silly resolved     author:
+684 silly resolved      { name: 'Isaac Z. Schlueter',
+684 silly resolved        email: 'i@izs.me',
+684 silly resolved        url: 'http://blog.izs.me/' },
+684 silly resolved     license: 'BSD',
+684 silly resolved     readme: '# sigmund\n\nQuick and dirty signatures for Objects.\n\nThis is like a much faster `deepEquals` comparison, which returns a\nstring key suitable for caches and the like.\n\n## Usage\n\n```javascript\nfunction doSomething (someObj) {\n  var key = sigmund(someObj, maxDepth) // max depth defaults to 10\n  var cached = cache.get(key)\n  if (cached) return cached)\n\n  var result = expensiveCalculation(someObj)\n  cache.set(key, result)\n  return result\n}\n```\n\nThe resulting key will be as unique and reproducible as calling\n`JSON.stringify` or `util.inspect` on the object, but is much faster.\nIn order to achieve this speed, some differences are glossed over.\nFor example, the object `{0:\'foo\'}` will be treated identically to the\narray `[\'foo\']`.\n\nAlso, just as there is no way to summon the soul from the scribblings\nof a cocain-addled psychoanalyst, there is no way to revive the object\nfrom the signature string that sigmund gives you.  In fact, it\'s\nbarely even readable.\n\nAs with `sys.inspect` and `JSON.stringify`, larger objects will\nproduce larger signature strings.\n\nBecause sigmund is a bit less strict than the more thorough\nalternatives, the strings will be shorter, and also there is a\nslightly higher chance for collisions.  For example, these objects\nhave the same signature:\n\n    var obj1 = {a:\'b\',c:/def/,g:[\'h\',\'i\',{j:\'\',k:\'l\'}]}\n    var obj2 = {a:\'b\',c:\'/def/\',g:[\'h\',\'i\',\'{jkl\']}\n\nLike a good Freudian, sigmund is most effective when you already have\nsome understanding of what you\'re looking for.  It can help you help\nyourself, but you must be willing to do some work as well.\n\nCycles are handled, and cyclical objects are silently omitted (though\nthe key is included in the signature output.)\n\nThe second argument is the maximum depth, which defaults to 10,\nbecause that is the maximum object traversal depth covered by most\ninsurance carriers.\n',
+684 silly resolved     readmeFilename: 'README.md',
+684 silly resolved     bugs: { url: 'https://github.com/isaacs/sigmund/issues' },
+684 silly resolved     _id: 'sigmund@1.0.0',
+684 silly resolved     _from: 'sigmund@~1.0.0' } ]
+685 info install lru-cache@2.5.0 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+686 info install sigmund@1.0.0 into /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+687 info installOne lru-cache@2.5.0
+688 info installOne sigmund@1.0.0
+689 verbose tar unpack /home/dariusk/.npm/glob/4.0.2/package.tgz
+690 verbose from cache /home/dariusk/.npm/lru-cache/2.5.0/package/package.json
+691 verbose from cache /home/dariusk/.npm/sigmund/1.0.0/package/package.json
+692 silly lockFile e0074de9-de-modules-cli-node-modules-glob tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob
+693 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob /home/dariusk/.npm/e0074de9-de-modules-cli-node-modules-glob.lock
+694 silly lockFile bfe818c6-riusk-npm-glob-4-0-2-package-tgz tar:///home/dariusk/.npm/glob/4.0.2/package.tgz
+695 verbose lock tar:///home/dariusk/.npm/glob/4.0.2/package.tgz /home/dariusk/.npm/bfe818c6-riusk-npm-glob-4-0-2-package-tgz.lock
+696 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache unbuild
+697 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+698 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund unbuild
+699 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund/package.json
+700 silly gunzTarPerm modes [ '755', '644' ]
+701 verbose tar unpack /home/dariusk/.npm/lru-cache/2.5.0/package.tgz
+702 verbose tar unpack /home/dariusk/.npm/sigmund/1.0.0/package.tgz
+703 silly lockFile 8380c2db-minimatch-node-modules-lru-cache tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache
+704 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache /home/dariusk/.npm/8380c2db-minimatch-node-modules-lru-cache.lock
+705 silly lockFile 3df311e0--npm-lru-cache-2-5-0-package-tgz tar:///home/dariusk/.npm/lru-cache/2.5.0/package.tgz
+706 verbose lock tar:///home/dariusk/.npm/lru-cache/2.5.0/package.tgz /home/dariusk/.npm/3df311e0--npm-lru-cache-2-5-0-package-tgz.lock
+707 silly lockFile 1e64fe3e-s-minimatch-node-modules-sigmund tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund
+708 verbose lock tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund /home/dariusk/.npm/1e64fe3e-s-minimatch-node-modules-sigmund.lock
+709 silly lockFile e005a7cc-sk-npm-sigmund-1-0-0-package-tgz tar:///home/dariusk/.npm/sigmund/1.0.0/package.tgz
+710 verbose lock tar:///home/dariusk/.npm/sigmund/1.0.0/package.tgz /home/dariusk/.npm/e005a7cc-sk-npm-sigmund-1-0-0-package-tgz.lock
+711 silly gunzTarPerm extractEntry package.json
+712 silly gunzTarPerm modes [ '755', '644' ]
+713 silly gunzTarPerm modes [ '755', '644' ]
+714 silly gunzTarPerm extractEntry .npmignore
+715 silly gunzTarPerm extractEntry README.md
+716 silly gunzTarPerm extractEntry package.json
+717 silly gunzTarPerm extractEntry package.json
+718 silly gunzTarPerm extractEntry .npmignore
+719 silly gunzTarPerm extractEntry README.md
+720 silly gunzTarPerm extractEntry README.md
+721 silly gunzTarPerm extractEntry LICENSE
+722 silly gunzTarPerm extractEntry LICENSE
+723 silly gunzTarPerm extractEntry glob.js
+724 silly gunzTarPerm extractEntry LICENSE
+725 silly gunzTarPerm extractEntry lib/lru-cache.js
+726 silly gunzTarPerm extractEntry examples/usr-local.js
+727 silly gunzTarPerm extractEntry examples/g.js
+728 silly gunzTarPerm extractEntry test/readme-issue.js
+729 silly gunzTarPerm extractEntry bench.js
+730 silly gunzTarPerm extractEntry sigmund.js
+731 silly gunzTarPerm extractEntry test/new-glob-optional-options.js
+732 silly gunzTarPerm extractEntry CONTRIBUTORS
+733 silly gunzTarPerm extractEntry test/foreach.js
+734 silly gunzTarPerm extractEntry test/basic.js
+735 silly gunzTarPerm extractEntry test/error-callback.js
+736 silly gunzTarPerm extractEntry test/basic.js
+737 silly gunzTarPerm extractEntry test/memory-leak.js
+738 silly gunzTarPerm extractEntry test/bash-comparison.js
+739 silly gunzTarPerm extractEntry test/stat.js
+740 silly gunzTarPerm extractEntry test/00-setup.js
+741 silly gunzTarPerm extractEntry test/nocase-nomagic.js
+742 silly gunzTarPerm extractEntry test/mark.js
+743 silly gunzTarPerm extractEntry test/root.js
+744 silly gunzTarPerm extractEntry test/globstar-match.js
+745 silly gunzTarPerm extractEntry test/root-nomount.js
+746 silly gunzTarPerm extractEntry test/pause-resume.js
+747 silly gunzTarPerm extractEntry test/cwd-test.js
+748 silly gunzTarPerm extractEntry test/empty-set.js
+749 silly gunzTarPerm extractEntry test/zz-cleanup.js
+750 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund/package.json
+751 silly gunzTarPerm extractEntry test/bash-results.json
+752 silly gunzTarPerm extractEntry .travis.yml
+753 silly lockFile 1e64fe3e-s-minimatch-node-modules-sigmund tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund
+754 silly lockFile 1e64fe3e-s-minimatch-node-modules-sigmund tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund
+755 silly lockFile e005a7cc-sk-npm-sigmund-1-0-0-package-tgz tar:///home/dariusk/.npm/sigmund/1.0.0/package.tgz
+756 silly lockFile e005a7cc-sk-npm-sigmund-1-0-0-package-tgz tar:///home/dariusk/.npm/sigmund/1.0.0/package.tgz
+757 info preinstall sigmund@1.0.0
+758 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund/package.json
+759 verbose readDependencies using package.json deps
+760 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund/package.json
+761 verbose readDependencies using package.json deps
+762 silly resolved []
+763 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund
+764 info build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund
+765 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund/package.json
+766 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+767 silly lockFile 8380c2db-minimatch-node-modules-lru-cache tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache
+768 silly lockFile 8380c2db-minimatch-node-modules-lru-cache tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache
+769 silly lockFile 3df311e0--npm-lru-cache-2-5-0-package-tgz tar:///home/dariusk/.npm/lru-cache/2.5.0/package.tgz
+770 silly lockFile 3df311e0--npm-lru-cache-2-5-0-package-tgz tar:///home/dariusk/.npm/lru-cache/2.5.0/package.tgz
+771 verbose linkStuff [ false,
+771 verbose linkStuff   false,
+771 verbose linkStuff   false,
+771 verbose linkStuff   '/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules' ]
+772 info linkStuff sigmund@1.0.0
+773 verbose from cache /home/dariusk/Projects/mapsaic/package.json
+774 verbose linkBins sigmund@1.0.0
+775 verbose linkMans sigmund@1.0.0
+776 verbose rebuildBundles sigmund@1.0.0
+777 info preinstall lru-cache@2.5.0
+778 info install sigmund@1.0.0
+779 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+780 info postinstall sigmund@1.0.0
+781 verbose readDependencies using package.json deps
+782 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+783 verbose readDependencies using package.json deps
+784 silly resolved []
+785 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache
+786 info build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache
+787 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+788 verbose linkStuff [ false,
+788 verbose linkStuff   false,
+788 verbose linkStuff   false,
+788 verbose linkStuff   '/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules' ]
+789 info linkStuff lru-cache@2.5.0
+790 verbose from cache /home/dariusk/Projects/mapsaic/package.json
+791 verbose linkBins lru-cache@2.5.0
+792 verbose linkMans lru-cache@2.5.0
+793 verbose rebuildBundles lru-cache@2.5.0
+794 info install lru-cache@2.5.0
+795 info postinstall lru-cache@2.5.0
+796 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+797 info build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+798 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+799 verbose linkStuff [ false,
+799 verbose linkStuff   false,
+799 verbose linkStuff   false,
+799 verbose linkStuff   '/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules' ]
+800 info linkStuff minimatch@0.3.0
+801 verbose from cache /home/dariusk/Projects/mapsaic/package.json
+802 verbose linkBins minimatch@0.3.0
+803 verbose linkMans minimatch@0.3.0
+804 verbose rebuildBundles minimatch@0.3.0
+805 verbose rebuildBundles [ 'sigmund', 'lru-cache' ]
+806 info install minimatch@0.3.0
+807 info postinstall minimatch@0.3.0
+808 verbose read json /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/package.json
+809 silly lockFile e0074de9-de-modules-cli-node-modules-glob tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob
+810 silly lockFile e0074de9-de-modules-cli-node-modules-glob tar:///home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob
+811 silly lockFile bfe818c6-riusk-npm-glob-4-0-2-package-tgz tar:///home/dariusk/.npm/glob/4.0.2/package.tgz
+812 silly lockFile bfe818c6-riusk-npm-glob-4-0-2-package-tgz tar:///home/dariusk/.npm/glob/4.0.2/package.tgz
+813 info preinstall glob@4.0.2
+814 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/package.json
+815 verbose readDependencies using package.json deps
+816 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/package.json
+817 verbose readDependencies using package.json deps
+818 verbose cache add [ 'inherits@2', null ]
+819 verbose cache add name=undefined spec="inherits@2" args=["inherits@2",null]
+820 verbose parsed url { pathname: 'inherits@2',
+820 verbose parsed url   path: 'inherits@2',
+820 verbose parsed url   href: 'inherits@2' }
+821 verbose cache add name="inherits" spec="2" args=["inherits","2"]
+822 verbose parsed url { pathname: '2', path: '2', href: '2' }
+823 verbose addNamed [ 'inherits', '2' ]
+824 verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+825 silly lockFile 1f7ff4de-inherits-2 inherits@2
+826 verbose lock inherits@2 /home/dariusk/.npm/1f7ff4de-inherits-2.lock
+827 verbose cache add [ 'minimatch@^0.3.0', null ]
+828 verbose cache add name=undefined spec="minimatch@^0.3.0" args=["minimatch@^0.3.0",null]
+829 verbose parsed url { pathname: 'minimatch@^0.3.0',
+829 verbose parsed url   path: 'minimatch@^0.3.0',
+829 verbose parsed url   href: 'minimatch@^0.3.0' }
+830 verbose cache add name="minimatch" spec="^0.3.0" args=["minimatch","^0.3.0"]
+831 verbose parsed url { pathname: '^0.3.0', path: '^0.3.0', href: '^0.3.0' }
+832 verbose addNamed [ 'minimatch', '^0.3.0' ]
+833 verbose addNamed [ null, null ]
+834 silly lockFile 27a1ef78-minimatch-0-3-0 minimatch@^0.3.0
+835 verbose lock minimatch@^0.3.0 /home/dariusk/.npm/27a1ef78-minimatch-0-3-0.lock
+836 silly addNameRange { name: 'inherits', range: '>=2.0.0- <3.0.0-', hasData: false }
+837 info addNameTag [ 'minimatch', '^0.3.0' ]
+838 verbose cache add [ 'once@^1.3.0', null ]
+839 verbose cache add name=undefined spec="once@^1.3.0" args=["once@^1.3.0",null]
+840 verbose parsed url { pathname: 'once@^1.3.0',
+840 verbose parsed url   path: 'once@^1.3.0',
+840 verbose parsed url   href: 'once@^1.3.0' }
+841 verbose cache add name="once" spec="^1.3.0" args=["once","^1.3.0"]
+842 verbose parsed url { pathname: '^1.3.0', path: '^1.3.0', href: '^1.3.0' }
+843 verbose addNamed [ 'once', '^1.3.0' ]
+844 verbose addNamed [ null, null ]
+845 silly lockFile b6fcabd3-once-1-3-0 once@^1.3.0
+846 verbose lock once@^1.3.0 /home/dariusk/.npm/b6fcabd3-once-1-3-0.lock
+847 info addNameTag [ 'once', '^1.3.0' ]
+848 verbose url raw inherits
+849 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+850 verbose url resolved https://registry.npmjs.org/inherits
+851 info trying registry request attempt 1 at 08:02:50
+852 verbose etag "4AL2M2PJABZWUVUHFYQEADS5P"
+853 http GET https://registry.npmjs.org/inherits
+854 verbose registry.get minimatch not expired, no request
+855 silly lockFile 27a1ef78-minimatch-0-3-0 minimatch@^0.3.0
+856 silly lockFile 27a1ef78-minimatch-0-3-0 minimatch@^0.3.0
+857 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob
+858 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob unbuild
+859 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/package.json
+860 info preuninstall glob@4.0.2
+861 verbose url raw once
+862 verbose url resolving [ 'https://registry.npmjs.org/', './once' ]
+863 verbose url resolved https://registry.npmjs.org/once
+864 info trying registry request attempt 1 at 08:02:50
+865 verbose etag "7UPTU9GJRMJT5JVT4ORTZVG61"
+866 http GET https://registry.npmjs.org/once
+867 info uninstall glob@4.0.2
+868 verbose false,/home/dariusk/Projects/mapsaic/node_modules,/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules unbuild glob@4.0.2
+869 info postuninstall glob@4.0.2
+870 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli
+871 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli unbuild
+872 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+873 info preuninstall cli@0.4.5
+874 info uninstall cli@0.4.5
+875 verbose false,/home/dariusk/Projects/mapsaic/node_modules,/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules unbuild cli@0.4.5
+876 info postuninstall cli@0.4.5
+877 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint
+878 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint unbuild
+879 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+880 info preuninstall jshint@2.1.11
+881 info uninstall jshint@2.1.11
+882 verbose false,/home/dariusk/Projects/mapsaic/node_modules,/home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules unbuild jshint@2.1.11
+883 verbose /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/node_modules/.bin,[object Object] binRoot
+884 info postuninstall jshint@2.1.11
+885 verbose about to build /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint
+886 info /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint unbuild
+887 verbose from cache /home/dariusk/Projects/mapsaic/node_modules/grunt-contrib-jshint/package.json
+888 info preuninstall grunt-contrib-jshint@0.6.5
+889 info uninstall grunt-contrib-jshint@0.6.5
+890 verbose true,/home/dariusk/Projects/mapsaic/node_modules,/home/dariusk/Projects/mapsaic/node_modules unbuild grunt-contrib-jshint@0.6.5
+891 info postuninstall grunt-contrib-jshint@0.6.5
+892 error Error: No compatible version found: minimatch@'^0.3.0'
+892 error Valid install targets:
+892 error ["0.0.1","0.0.2","0.0.4","0.0.5","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.2.0","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.2.8","0.2.9","0.2.10","0.2.11","0.2.12","0.2.13","0.2.14","0.3.0"]
+892 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:719:10)
+892 error     at /usr/local/lib/node_modules/npm/lib/cache.js:641:10
+892 error     at RegClient.get_ (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:101:14)
+892 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:37:12)
+892 error     at fs.readFile (fs.js:176:14)
+892 error     at Object.oncomplete (fs.js:297:15)
+893 error If you need help, you may report this log at:
+893 error     <http://github.com/isaacs/npm/issues>
+893 error or email it to:
+893 error     <npm-@googlegroups.com>
+894 error System Linux 3.8.11
+895 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+896 error cwd /home/dariusk/Projects/mapsaic
+897 error node -v v0.8.25
+898 error npm -v 1.2.30
+899 verbose exit [ 1, true ]
